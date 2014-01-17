@@ -47,6 +47,9 @@
    <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
 
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
+
      <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation angles</string>
     <string name="display_rotation_disabled">Disabled</string>
