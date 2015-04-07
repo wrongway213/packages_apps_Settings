@@ -49,6 +49,9 @@
         <activity android:name="com.mrapocalypse.screwdshop.frags.batterylight.NotificationLightSettings" />
         <activity android:name="com.mrapocalypse.screwdshop.frags.batterylight.BatteryLightSettings" />
 
+        <activity android:name="com.mrapocalypse.screwdshop.frags.gesture.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.mrapocalypse.screwdshop.frags.gesture.GestureAnywhereCreateGestureActivity" />
+
         <!-- Global navbar settings -->
         <activity android:name="Settings$NavigationSettingsActivity"
                 android:label="@string/navigationbar"
