@@ -158,4 +158,7 @@
     <string name="font_picker_title">Font</string>
     <string name="font_picker_progress">Applying new font\u2026</string>
 
+    <!-- Link volume notification -->
+    <string name="link_volume_option_title">Link ring and notification volume</string>
+
 </resources>
