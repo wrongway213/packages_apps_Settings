@@ -314,4 +314,9 @@
     <string name="app_ops_get_accounts">device accounts</string>
     <string name="app_ops_run_in_background">run in background</string>
 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
+
 </resources>
