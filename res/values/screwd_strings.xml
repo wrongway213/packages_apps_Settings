@@ -26,6 +26,9 @@
     <string name="build_date">Build date</string>
     <string name="build_date_default">2012-01-01-0000</string>
 
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Desktop backup password</string>
+
     <!-- Vendor version -->
     <string name="vendor_version">Vendor version</string>
     <string name="vendor_version_default">Unknown</string>
