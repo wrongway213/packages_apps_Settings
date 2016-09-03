@@ -27,11 +27,18 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := \
         $(call all-java-files-under, src)
 
+LOCAL_SRC_FILES += $(call all-java-files-under, ../ScrewShop/src)
+
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/preference/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res
+
+LOCAL_RESOURCE_DIR += packages/apps/ScrewShop/res
+
+LOCAL_AAPT_FLAGS := --auto-add-overlay \
+	--extra-packages com.mrapocalypse.screwdshop
 
 LOCAL_PACKAGE_NAME := Settings
 LOCAL_CERTIFICATE := platform

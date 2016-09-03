@@ -20,6 +20,8 @@
 -keep class com.android.settings.overlay.FeatureFactoryImpl
 -keep class com.android.settings.accessibility.*FragmentForSetupWizard
 -keep class com.android.settings.display.*FragmentForSetupWizard
+-keep class com.mrapocalypse.screwdshop.**
+-keep class com.mrapocalypse.screwdshop.frags.**
 -keep class com.android.settings.display.NightDisplaySettings
 
 # Keep click responders
