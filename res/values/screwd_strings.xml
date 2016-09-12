@@ -103,4 +103,9 @@
     <string name="less_notification_sounds_2m">2 minutes</string>
     <string name="less_notification_sounds_5m">5 minutes</string>
 
+    <!-- Dashboard suggestions -->
+    <string name="dashboard_category">Dashboard options</string>
+    <string name="remove_tile_summaries_title">Remove tile summaries</string>
+    <string name="remove_tile_summaries_summary">Remove tiles summaries that display underneath tile titles</string>
+
 </resources>

@@ -120,6 +120,18 @@
         </PreferenceCategory>
 
         <PreferenceCategory
+                android:key="dashboard_category"
+                android:title="@string/dashboard_category">
+
+        <com.mrapocalypse.screwdshop.prefs.SystemSettingSwitchPreference
+                android:key="remove_tile_summary"
+                android:title="@string/remove_tile_summaries_title"
+                android:summary="@string/remove_tile_summaries_summary"
+                android:defaultValue="false" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
                 android:key="density_category"
                 android:title="@string/density_category">
 
