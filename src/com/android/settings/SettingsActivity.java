@@ -121,6 +121,7 @@ import com.android.settings.search.Index;
 import com.android.settings.sim.SimSettings;
 import com.android.settings.tts.TextToSpeechSettings;
 import com.android.settings.users.UserSettings;
+import com.android.settings.screwd.SubstratumLaunch;
 import com.android.settings.vpn2.VpnSettings;
 import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.widget.SwitchBar;
@@ -360,6 +361,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             TestingSettings.class.getName(),
             WifiAPITest.class.getName(),
             WifiInfo.class.getName(),
+            SubstratumLaunch.class.getName(),
             ScrewdShop.class.getName(),
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
@@ -1110,6 +1112,10 @@ public class SettingsActivity extends SettingsDrawerActivity
         setTileEnabled(new ComponentName(packageName,
                 Settings.PrintSettingsActivity.class.getName()),
                 pm.hasSystemFeature(PackageManager.FEATURE_PRINTING), isAdmin, pm);
+
+        setTileEnabled(new ComponentName(packageName,
+                Settings.SubstratumLaunchActivity.class.getName()),
+                pm.isPackageAvailable("projekt.substratum"), isAdmin, pm);
 
         final boolean showDev = mDevelopmentPreferences.getBoolean(
                     DevelopmentSettings.PREF_SHOW, android.os.Build.TYPE.equals("eng")
