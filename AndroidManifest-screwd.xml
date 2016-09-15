@@ -43,5 +43,9 @@
                 android:resource="@string/rootmanagement_dashboard_summary" />
         </activity>
 
+        <!-- Battery and notification lights -->
+        <activity android:name="com.mrapocalypse.screwdshop.frags.batterylight.NotificationLightSettings" />
+        <activity android:name="com.mrapocalypse.screwdshop.frags.batterylight.BatteryLightSettings" />
+
     </application>
 </manifest>
