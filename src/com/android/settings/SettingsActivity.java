@@ -137,6 +137,10 @@ import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 
 import com.mrapocalypse.screwdshop.ScrewdShop;
+import com.mrapocalypse.screwdshop.frags.FlingSettings;
+import com.mrapocalypse.screwdshop.frags.NavbarSettings;
+import com.mrapocalypse.screwdshop.frags.SmartbarSettings;
+import com.mrapocalypse.screwdshop.frags.PulseSettings;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -366,7 +370,11 @@ public class SettingsActivity extends SettingsDrawerActivity
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
-            AutomaticStorageManagerSettings.class.getName()
+            AutomaticStorageManagerSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
 
