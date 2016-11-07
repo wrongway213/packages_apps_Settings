@@ -141,6 +141,7 @@ import com.mrapocalypse.screwdshop.frags.FlingSettings;
 import com.mrapocalypse.screwdshop.frags.NavbarSettings;
 import com.mrapocalypse.screwdshop.frags.SmartbarSettings;
 import com.mrapocalypse.screwdshop.frags.PulseSettings;
+import com.mrapocalypse.screwdshop.frags.PieControl;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -374,7 +375,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
+            PulseSettings.class.getName(),
+            PieControl.class.getName(),
     };
 
 
