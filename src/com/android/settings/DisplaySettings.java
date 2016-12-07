@@ -191,14 +191,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             removePreference(KEY_CAMERA_GESTURE);
         }
 
-        if (isCameraDoubleTapPowerGestureAvailable(getResources())) {
-            mCameraDoubleTapPowerGesturePreference
-                    = (SwitchPreference) findPreference(KEY_CAMERA_DOUBLE_TAP_POWER_GESTURE);
-            mCameraDoubleTapPowerGesturePreference.setOnPreferenceChangeListener(this);
-        } else {
-            removePreference(KEY_CAMERA_DOUBLE_TAP_POWER_GESTURE);
-        }
-
         if (RotationPolicy.isRotationSupported(activity)) {
             mAccelerometerPreference = (SwitchPreference) findPreference(KEY_ACCELEROMETER);
             Boolean rotationEnabled = Settings.System.getInt(getContentResolver(),

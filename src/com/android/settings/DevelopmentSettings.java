@@ -1611,7 +1611,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         updateLogdSizeValues();
     }
 
-<<<<<<< HEAD
     private void updateLogpersistValues() {
         if (mLogpersist == null) {
             return;
