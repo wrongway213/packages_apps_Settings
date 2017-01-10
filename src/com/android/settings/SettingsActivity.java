@@ -122,6 +122,7 @@ import com.android.settings.search.Index;
 import com.android.settings.sim.SimSettings;
 import com.android.settings.tts.TextToSpeechSettings;
 import com.android.settings.users.UserSettings;
+import com.android.settings.screwd.AmbientSettings;
 import com.android.settings.screwd.SubstratumLaunch;
 import com.android.settings.vpn2.VpnSettings;
 import com.android.settings.wfd.WifiDisplaySettings;
@@ -379,7 +380,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
             PieControl.class.getName(),
-            RunningServices.class.getName(),
+            AmbientSettings.class.getName(),
+            RunningServices.class.getName()
     };
 
 
