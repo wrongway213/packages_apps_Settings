@@ -206,4 +206,12 @@
    <string name="filter_substratum_icons">Substratum icon overlays</string>
    <string name="menu_show_substratum_icons">Show icon overlays</string>
    <string name="menu_hide_substratum_icons">Hide icon overlays</string>
+
+   <!-- Dashboard columns -->
+    <string name="dashboard_columns_title">Dashboard Columns</string>
+    <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard</string>
+    <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
+    <string name="dashboard_columns_default">One (two landscape)</string>
+    <string name="dashboard_columns_two">Two (three landscape)</string>
+    <string name="dashboard_columns_three">Three (four landscape)</string> 
 </resources>
