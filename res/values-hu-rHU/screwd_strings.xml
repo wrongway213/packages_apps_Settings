@@ -35,7 +35,9 @@
   <string name="build_date">Készítés dátuma</string>
   <string name="build_date_default">2012-01-01-0000</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+  <string name="processor_info">Processzor</string>
   <!-- RAM: Memory Info -->
+  <string name="mem_info">RAM</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Asztali mentés jelszava</string>
   <!-- Vendor version -->
@@ -160,6 +162,14 @@
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">A Google Kamera szelfi módba lépéséhez és abból való kilépéshez, duplán fogassa meg az eszközt, ha az alkalmazásban van</string>
   <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Dupla érintés környezeti kijelzőn az ébresztéshez</string>
+  <string name="double_tap_wake_doze_summary">Dupla érintés kérése a készülék felébresztéséhez a pulzáló környezeti kijelzőn</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum fedvények</string>
+  <string name="menu_show_substratum">Fedvények megjelenítése</string>
+  <string name="menu_hide_substratum">Fedvények elrejtése</string>
   <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Substratum ikonfedvények</string>
+  <string name="menu_show_substratum_icons">Ikonfedvények megjelenítése</string>
+  <string name="menu_hide_substratum_icons">Ikonfedvények elrejtése</string>
 </resources>

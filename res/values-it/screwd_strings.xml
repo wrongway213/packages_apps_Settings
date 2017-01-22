@@ -35,7 +35,9 @@
   <string name="build_date">Numero build</string>
   <string name="build_date_default">2012-01-01-0000</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+  <string name="processor_info">Processore</string>
   <!-- RAM: Memory Info -->
+  <string name="mem_info">RAM</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Password di backup desktop</string>
   <!-- Vendor version -->
@@ -161,5 +163,11 @@
   <string name="double_twist_for_camera_mode_summary_pn">Per passare e uscire dalla modalità selfie in Google fotocamera, doppia torsione quando sei nell\'app</string>
   <!-- Double tap for doze -->
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Temi Substratum</string>
+  <string name="menu_show_substratum">Mostra temi</string>
+  <string name="menu_hide_substratum">Nascondi temi</string>
   <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Icone temi Substratum</string>
+  <string name="menu_show_substratum_icons">Mostra icone temi</string>
+  <string name="menu_hide_substratum_icons">Nascondi icone temi</string>
 </resources>
