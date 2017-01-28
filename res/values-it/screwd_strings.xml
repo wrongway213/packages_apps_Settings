@@ -96,12 +96,8 @@
   <string name="less_notification_sounds_5m">5 minuti</string>
   <!-- Dashboard options -->
   <string name="dashboard_category">Menu impostazioni</string>
-  <string name="dashboard_suggestions_title">Suggerimenti menu</string>
   <string name="summary_dashboard_suggestions_enabled">Suggerimenti menu impostazioni attivati</string>
   <string name="summary_dashboard_suggestions_disabled">Suggerimenti menu impostazioni disattivati</string>
-  <string name="remove_tile_summaries_title">Rimuovi descrizioni riassuntive</string>
-  <string name="remove_tile_summaries_summary">Rimuovi le descrizioni riassuntive sotto i titoli delle impostazioni</string>
-  <string name="dashboard_conditions_title">Condizioni menu</string>
   <string name="summary_dashboard_conditions_enabled">Condizioni menu impostazioni attivate</string>
   <string name="summary_dashboard_conditions_disabled">Condizioni menu impostazioni disattivate</string>
   <!-- Screenshot sound -->
