@@ -150,4 +150,7 @@
     <string name="lockscreen_pin_ripple_title">Pin Ripple</string>
     <string name="lockscreen_pin_ripple_summary">Disable to remove ripple when entering pin numbers</string>
 
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
+
 </resources>
