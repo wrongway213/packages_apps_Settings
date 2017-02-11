@@ -176,4 +176,7 @@
   <string name="menu_show_substratum_icons">Ikonfedvények megjelenítése</string>
   <string name="menu_hide_substratum_icons">Ikonfedvények elrejtése</string>
   <!-- setting: show CPU info-->
+  <string name="show_cpu_info">CPU info megjelenítése</string>
+  <string name="show_cpu_info_summary">Jelenlegi CPU info mutatása képernyő átfedésben</string>
+  <!-- Doze pulse options -->
 </resources>

@@ -166,6 +166,7 @@
   <string name="double_twist_for_camera_mode_summary_pn">Per passare e uscire dalla modalità selfie in Google fotocamera, doppia torsione quando sei nell\'app</string>
   <!-- Double tap for doze -->
   <string name="double_tap_wake_doze_title">Doppio tocco per riattivare in doze</string>
+  <string name="double_tap_wake_doze_summary">Richiede un doppio tap per riattivare il dispositivo sullo schermo di impulso doze</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Temi Substratum</string>
   <string name="menu_show_substratum">Mostra temi</string>
@@ -175,4 +176,7 @@
   <string name="menu_show_substratum_icons">Mostra icone temi</string>
   <string name="menu_hide_substratum_icons">Nascondi icone temi</string>
   <!-- setting: show CPU info-->
+  <string name="show_cpu_info">Mostra informazioni CPU</string>
+  <string name="show_cpu_info_summary">Mostra in sovraimpressione info CPU</string>
+  <!-- Doze pulse options -->
 </resources>
