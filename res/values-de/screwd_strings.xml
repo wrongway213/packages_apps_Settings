@@ -16,46 +16,167 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
+  <string name="ok">Okay</string>
+  <string name="reset">Zurücksetzen</string>
+  <string name="attention">Achtung</string>
+  <string name="enabled">Aktiviert</string>
+  <string name="default_string">Voreinstellung</string>
+  <string name="add">Hinzufügen</string>
+  <string name="choose_app">Anwendung wählen</string>
+  <string name="customization">Anpassung</string>
+  <string name="screwd_settings">Screw\'d - Einstellungen</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Kein Bedarf, Entwickleroptionen sind standardmäßig aktiviert.</string>
   <!-- About phone screen, Screw'd version name-->
+  <string name="mod_version">Screw\'d Version</string>
   <!-- About phone screen, Screw'd unknown name-->
+  <string name="mod_version_default">Unbekannt</string>
   <!-- About phone screen, build date of ROM -->
+  <string name="build_date">Build-Datum</string>
+  <string name="build_date_default">2012-01-01-0000</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+  <string name="processor_info">Prozessor</string>
   <!-- RAM: Memory Info -->
+  <string name="mem_info">RAM</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Desktop-Sicherungspasswort</string>
   <!-- Vendor version -->
+  <string name="vendor_version">Anbieter-Version</string>
+  <string name="vendor_version_default">Unbekannt</string>
   <!-- Phone info shortcut -->
+  <string name="device_info_title">Telefoninformationen</string>
   <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Drehwinkel</string>
+  <string name="display_rotation_disabled">Deaktiveirt</string>
+  <string name="display_rotation_unit">Grad</string>
+  <string name="display_rotation_category_title">Drehung</string>
+  <string name="display_rotation_0_title">0 Grad</string>
+  <string name="display_rotation_90_title">90 Grad</string>
+  <string name="display_rotation_180_title">180 Grad</string>
+  <string name="display_rotation_270_title">270 Grad</string>
   <!-- Density category -->
+  <string name="density_category">Optionen für Dichte</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Änderungston</string>
   <!-- MediaScanner behavior on boot -->
+  <string name="options_settings_title">Einstellungen</string>
+  <string name="media_scanner_on_boot_title">Verhalten des Medien-Scanners beim Hochfahren</string>
+  <string name="media_scanner_on_boot_enabled">Medien scannen</string>
+  <string name="media_scanner_on_boot_ask">Zum Scannen nachfragen (Benachrichtigung)</string>
+  <string name="media_scanner_on_boot_disabled">Medien nicht scannen</string>
   <!-- Advanced storage settings -->
+  <string name="storage_advanced_titlebar">Erweiterter Massenspeicher</string>
+  <string name="storage_menu_advanced">Erweitert</string>
   <!-- USB data automatic unlock -->
+  <string name="usb_data_auto_unlock_title">USB-Daten entsperren</string>
+  <string name="usb_data_auto_unlock_summary">Entsperrt Daten Zugriff auf Speicher des Telefons über USB (MTP, PTP)</string>
+  <string name="usb_data_auto_unlock_warning_summary">Das Gerät stellt ungeschützte Verbindungen her, jedesmal wenn Sie es an einen PC anschließen. Gesicherte Sperrbildschirmen deaktivieren diese Option automatisch.\n\nDies ist ein experimentelles Feature, Benutzung mit Vorsicht.</string>
   <!-- Sound settings -->
+  <string name="advanced_sound_title">Erweiterte Optionen</string>
+  <string name="sound_title">Ton</string>
   <!-- Safe headset volume restore checkbox -->
+  <string name="safe_headset_volume_title">Hinweis bei hoher Lautstärke des Kopfhörers</string>
+  <string name="safe_headset_volume_summary">Hohe Lautstärke verhindern, wenn Headset angeschlossen wird</string>
+  <string name="safe_headset_volume_warning_dialog_text">Für längere Zeit Medien mit hoher Lautstärke hören, kann Ihr Gehör schädigen.</string>
   <!-- Less Notification sounds -->
+  <string name="notifications_category_title">Benachrichtigungen</string>
+  <string name="less_notification_sounds_title">Weniger häufige Benachrichtigungstöne</string>
+  <string name="less_notification_sounds_summary">Benachrichtigungstöne der einzelnen Applikationen werden im gesetzten Zeitintervall nur einmal abgespielt</string>
+  <string name="less_notification_sounds_default">Standardverhalten</string>
+  <string name="less_notification_sounds_3s">3 Sekunden</string>
+  <string name="less_notification_sounds_5s">5 Sekunden</string>
+  <string name="less_notification_sounds_10s">10 Sekunden</string>
+  <string name="less_notification_sounds_15s">15 Sekunden</string>
+  <string name="less_notification_sounds_30s">30 Sekunden</string>
+  <string name="less_notification_sounds_45s">45 Sekunden</string>
+  <string name="less_notification_sounds_1m">1 Minute</string>
+  <string name="less_notification_sounds_2m">2 Minuten</string>
+  <string name="less_notification_sounds_5m">5 Minuten</string>
   <!-- Dashboard options -->
+  <string name="dashboard_category">Dashboard-Einstellungen</string>
+  <string name="dashboard_suggestions_title">Vorschläge</string>
+  <string name="summary_dashboard_suggestions_enabled">Dashboard-Vorschläge sind aktiviert</string>
+  <string name="summary_dashboard_suggestions_disabled">Dashboard-Vorschläge sind deaktiviert</string>
+  <string name="remove_tile_summaries_title">Zusammenfassungen</string>
+  <string name="remove_tile_summaries_summary_enabled">Dashboard-Zusammenfassungen sind aktiviert</string>
+  <string name="remove_tile_summaries_summary_disabled">Dashboard-Zusammenfassungen sind deaktiviert</string>
+  <string name="dashboard_conditions_title">Bedingungen</string>
+  <string name="summary_dashboard_conditions_enabled">Dashboard Bedingungen sind aktiviert</string>
+  <string name="summary_dashboard_conditions_disabled">Dashboard-Bedingungen sind deaktiviert</string>
+  <string name="dashboard_columns_portrait_title">Spalten (Hochformat)</string>
+  <string name="dashboard_columns_landscape_title">Spalten (Querformat)</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Ton bei Bildschirmfoto</string>
+  <string name="screenshot_sound_summary">Spiele Ton ab, wenn ein Bildschirmfoto gemacht wird</string>
   <!-- Bluetooth accept all files -->
+  <string name="bluetooth_accept_all_files">Alle Dateiformate akzeptieren</string>
   <!-- substratum dashboard tile title -->
+  <string name="substratum_settings_title">Substratum</string>
   <!-- Camera sound switch -->
+  <string name="camera_sounds_title">Kamera-Auslöse-Ton</string>
+  <string name="camera_sounds_summary">Aktiviert den Auslöse-Ton für die Kamera</string>
+  <string name="camera_sound_warning_dialog_text">Das deaktivieren des Kameraauslöser Tons ist in manchen Länder nicht erlaubt. Bitte prüfen Sie zunächst das geltende Recht in Ihrem Land</string>
   <!-- ADB debugging notifications -->
+  <string name="enable_adb_custom">Android Debugging</string>
+  <string name="enable_adb_summary_custom">Android Debug Bridge (ADB) Schnittstelle aktivieren</string>
+  <string name="adb_notify">ADB-Benachrichtigung</string>
+  <string name="adb_notify_summary">Zeigt eine Benachrichtigung bei aktiviertem USB oder Netzwerk-Debugging</string>
+  <string name="adb_over_network">ADB übers Netzwerk</string>
+  <string name="adb_over_network_summary">TCP/IP-Debugging über Netzwerkschnittstellen (WLAN, USB-Netzwerke) aktivieren. Diese Einstellung wird beim Neustart zurückgesetzt</string>
+  <string name="adb_over_network_warning">ACHTUNG: Wenn Sie ADB über Netzwerk aktivieren, ist ihr Telefon für Zugriffe aus allen verbundenen Netzwerken offen, auch aus dem GSM-Datennetz!\n\nAktivieren Sie diese Funktion nur, wenn Sie mit einem sicheren Netzwerk verbunden sind.\n\nWollen Sie diese Funktion wirklich aktivieren?</string>
   <!-- Wake on Plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Beim Anstecken aufwachen</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Einschalten des Bildschirms beim Verbinden und Trennen einer Stromquelle</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warnfarbe</string>
+  <string name="battery_saver_color_summary">Statusleiste und Navigationsleiste werden bei aktiviertem Akku-Sparmodus orange dargestellt</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3 x 3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Fehler anzeigen</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Punkte anzeigen</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">Vibrieren</string>
+  <string name="lockscreen_vibrate_enabled_head">Beim Entsperren vibrieren</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+  <string name="unlock_quick_unlock_control_summary">Direktes Entsperren durch korrekte PIN- oder Passworteingabe</string>
   <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
+  <string name="notification_importance_very_low">Kein Vollbild-Unterbrechung, HeadsUp, Ton oder Vibration. Am unteren Rand der Benachrichtigungsliste anzeigen Ausblenden vom Sperrbildschirm.</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">Klingel- und Benachrichtigungslautstärken verbinden</string>
+  <string name="notification_volume_option_title">Benachrichtigungs-Lautstärke</string>
+  <string name="ring_notification_volume_option_title">Klingel- und Benachrichtigungslautstärke</string>
   <!-- Advanced night mode tile -->
+  <string name="night_display_category_advanced">Erweitert</string>
+  <string name="qs_night_brightness_value_title">Automatische Helligkeitsregelung</string>
+  <string name="qs_night_brightness_value_dialog">Automatisch geringen Helligkeitswert festlegen, wenn Nachtlicht aktiviert wird</string>
+  <string name="qs_night_bright_disabled">Helligkeit nicht ändern</string>
+  <string name="qs_night_bright_less">Geringe Helligkeit einstellen</string>
+  <string name="qs_night_bright_medium">Mittlere Helligkeit einstellen</string>
+  <string name="qs_night_bright_min">Minimale Helligkeit einstellen</string>
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+  <string name="double_twist_for_camera_mode_summary_pn">Um in und aus dem Selfie Modus in der Google Kamera zu wechseln, drehen sie das Gerät 2 mal schnell hintereinander wenn sie sich in der App befinden</string>
   <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Doppeltippen um von Doze aufzuwecken</string>
+  <string name="double_tap_wake_doze_summary">Erfordert ein Doppel-Tippen, um das Gerät aus dem Doze-Puls-Bildschirm zu wecken</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum - Überlagerungen</string>
+  <string name="menu_show_substratum">Zeige Überlagerungen</string>
+  <string name="menu_hide_substratum">Verberge Überlagerungen</string>
   <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Substratum Icon Überlagerungen</string>
+  <string name="menu_show_substratum_icons">Zeige Icon Überlagerungen</string>
+  <string name="menu_hide_substratum_icons">Verberge Icon Überlagerungen</string>
   <!-- setting: show CPU info-->
+  <string name="show_cpu_info">Zeige CPU Informationen</string>
+  <string name="show_cpu_info_summary">Bildschirm-Überlagerung mit aktueller CPU Information</string>
   <!-- Doze pulse options -->
 </resources>
