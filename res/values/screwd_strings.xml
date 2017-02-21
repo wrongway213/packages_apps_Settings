@@ -131,9 +131,6 @@
     <!-- Bluetooth accept all files -->
     <string name="bluetooth_accept_all_files">Accept all file types</string>
 
-    <!-- substratum dashboard tile title -->
-    <string name="substratum_settings_title">Substratum</string>
-
     <!-- Camera sound switch -->
     <string name="camera_sounds_title">Camera shutter sound</string>
     <string name="camera_sounds_summary">Enable system camera shutter sound</string>
