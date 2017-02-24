@@ -103,8 +103,6 @@
   <string name="screenshot_sound_summary">Speelt geluidseffect wanneer schermafbeelding is genomen</string>
   <!-- Bluetooth accept all files -->
   <string name="bluetooth_accept_all_files">Accepteer alle bestandstypen</string>
-  <!-- substratum dashboard tile title -->
-  <string name="substratum_settings_title">Substratum</string>
   <!-- Camera sound switch -->
   <string name="camera_sounds_title">Sluitergeluid</string>
   <string name="camera_sounds_summary">Systeemcamera sluitergeluid inschakelen</string>
@@ -135,9 +133,6 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Trillen</string>
   <string name="lockscreen_vibrate_enabled_head">Trillen tijdens ontgrendelen</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Snel ontgrendelen</string>
-  <string name="unlock_quick_unlock_control_summary">Automatisch ontgrendelen bij ingeven juiste PIN-Code/Wachtwoord</string>
   <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
   <string name="notification_importance_very_low">Geen onderbreking van het volledige scherm, peeking, geluid of trillen. Toon aan de onderkant van de notificatielijst. Verbergen op het lockscreen.</string>
   <!-- Linked / unlinked notification volume -->
@@ -160,4 +155,5 @@
   <!-- Manage applications: show substratum icon overlays -->
   <!-- setting: show CPU info-->
   <!-- Doze pulse options -->
+  <!-- Increasing ring tone volume -->
 </resources>

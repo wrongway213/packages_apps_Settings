@@ -112,8 +112,6 @@
   <string name="screenshot_sound_summary">Spiele Ton ab, wenn ein Bildschirmfoto gemacht wird</string>
   <!-- Bluetooth accept all files -->
   <string name="bluetooth_accept_all_files">Alle Dateiformate akzeptieren</string>
-  <!-- substratum dashboard tile title -->
-  <string name="substratum_settings_title">Substratum</string>
   <!-- Camera sound switch -->
   <string name="camera_sounds_title">Kamera-Auslöse-Ton</string>
   <string name="camera_sounds_summary">Aktiviert den Auslöse-Ton für die Kamera</string>
@@ -144,9 +142,6 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Vibrieren</string>
   <string name="lockscreen_vibrate_enabled_head">Beim Entsperren vibrieren</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
-  <string name="unlock_quick_unlock_control_summary">Direktes Entsperren durch korrekte PIN- oder Passworteingabe</string>
   <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
   <string name="notification_importance_very_low">Kein Vollbild-Unterbrechung, HeadsUp, Ton oder Vibration. Am unteren Rand der Benachrichtigungsliste anzeigen Ausblenden vom Sperrbildschirm.</string>
   <!-- Linked / unlinked notification volume -->
@@ -179,4 +174,37 @@
   <string name="show_cpu_info">Zeige CPU Informationen</string>
   <string name="show_cpu_info_summary">Bildschirm-Überlagerung mit aktueller CPU Information</string>
   <!-- Doze pulse options -->
+  <string name="doze_settings">Doze Einstellungen</string>
+  <string name="summary_doze_enabled">Aktiviert</string>
+  <string name="summary_doze_disabled">Deaktiviert</string>
+  <string name="doze_overwrite_value_title">Standardwerte überschreiben</string>
+  <string name="doze_overwrite_value_summary">Überschreiben des Standardwertes durch Benutzerkonfiguration erlauben</string>
+  <string name="doze_pulse_title">Benutzerkonfigurierbare Einstellungen</string>
+  <string name="doze_pulse_duration_in_title">Einblenden</string>
+  <string name="doze_pulse_duration_visible_title">Sichtbarkeitsdauer</string>
+  <string name="doze_pulse_duration_out_title">Ausblenden</string>
+  <string name="doze_trigger_pickup_title">Bewegungssensor verwenden</string>
+  <string name="doze_trigger_pickup_summary_on">Puls wird durch den Bewegungssensor ausgelöst</string>
+  <string name="doze_trigger_pickup_summary_off">Bewegungssensor wird nicht als Auslöser verwendet</string>
+  <string name="doze_trigger_notification_title">Benachrichtungsauslöser</string>
+  <string name="doze_trigger_notification_summary_on">Puls wird durch Benachrichtigungen ausgelöst</string>
+  <string name="doze_trigger_notification_summary_off">Benachrichtigungen werden nicht als Auslöser verwendet</string>
+  <string name="doze_brightness_level_title">Helligkeitsstufe</string>
+  <string name="onehundred_ms">100 ms</string>
+  <string name="twofifty_ms">250 ms</string>
+  <string name="fivehundred_ms_default">500 ms (Standard)</string>
+  <string name="sevenfifty_ms">750 ms</string>
+  <string name="one_second">1 s</string>
+  <string name="onehalf_second">1,5 s</string>
+  <string name="two_second">2 s</string>
+  <string name="twohalf_second">2,5 s</string>
+  <string name="three_second_default">3 s (Standard)</string>
+  <string name="threehalf_second">3,5 s</string>
+  <string name="four_second">4 s</string>
+  <string name="fourhalf_second">4,5 s</string>
+  <string name="five_second">5 s</string>
+  <string name="doze_notification_color_invert_title">Benachrichtigungsfarbe invertieren</string>
+  <string name="doze_notification_color_invert_summary_off">Benachrichtigungen werden nicht invertiert. Verwenden für dunkle Designs.</string>
+  <string name="doze_notification_color_invert_summary_on">Benachrichtigungen werden invertiert. Verwenden für helle/Standard Designs.</string>
+  <!-- Increasing ring tone volume -->
 </resources>

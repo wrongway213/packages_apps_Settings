@@ -103,8 +103,6 @@
   <string name="screenshot_sound_summary">Émettre un son lors de la capture d\'écran</string>
   <!-- Bluetooth accept all files -->
   <string name="bluetooth_accept_all_files">Accepter tous les types de fichiers</string>
-  <!-- substratum dashboard tile title -->
-  <string name="substratum_settings_title">Substratum</string>
   <!-- Camera sound switch -->
   <string name="camera_sounds_title">Son du déclencheur de l\'appareil photo</string>
   <string name="camera_sounds_summary">Activer le son du déclencheur de l\'appareil photo</string>
@@ -135,9 +133,6 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Vibreur</string>
   <string name="lockscreen_vibrate_enabled_head">Vibrer lors du déverrouillage</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
-  <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement l\'écran lorsque le code PIN ou le mot de passe correct est saisi</string>
   <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
   <string name="notification_importance_very_low">Aucune interruption en plein écran, sonore ou vibration. Afficher au bas de la liste de notification. Masquer sur l’écran de verrouillage.</string>
   <!-- Linked / unlinked notification volume -->
@@ -160,4 +155,5 @@
   <!-- Manage applications: show substratum icon overlays -->
   <!-- setting: show CPU info-->
   <!-- Doze pulse options -->
+  <!-- Increasing ring tone volume -->
 </resources>

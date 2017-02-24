@@ -38,7 +38,6 @@
   <!-- Dashboard options -->
   <!-- Screenshot sound -->
   <!-- Bluetooth accept all files -->
-  <!-- substratum dashboard tile title -->
   <!-- Camera sound switch -->
   <!-- ADB debugging notifications -->
   <!-- Wake on Plug -->
@@ -47,7 +46,6 @@
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->
-  <!-- Quick unlock -->
   <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
   <!-- Linked / unlinked notification volume -->
   <!-- Advanced night mode tile -->
@@ -58,4 +56,5 @@
   <!-- Manage applications: show substratum icon overlays -->
   <!-- setting: show CPU info-->
   <!-- Doze pulse options -->
+  <!-- Increasing ring tone volume -->
 </resources>

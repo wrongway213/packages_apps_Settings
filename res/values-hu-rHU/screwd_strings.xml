@@ -47,6 +47,12 @@
   <string name="device_info_title">Telefon-információ</string>
   <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
   <string name="supersu_title">SuperSU</string>
+  <string name="substratum_title">Substratum</string>
+  <string name="substratum_summary">Témák a készülékéhez</string>
+  <string name="superuser_title">Superuser</string>
+  <string name="superuser_summary">Root hozzáférés kezelése</string>
+  <string name="magisk_title">Magisk kezelő</string>
+  <string name="magisk_summary">Modulok és beállítások vezérlése</string>
   <!-- Display : Rotation -->
   <string name="display_rotation_title">Forgatási szögek</string>
   <string name="display_rotation_disabled">Letiltva</string>
@@ -112,8 +118,6 @@
   <string name="screenshot_sound_summary">Hangeffekt lejátszása képernyőmentésnél</string>
   <!-- Bluetooth accept all files -->
   <string name="bluetooth_accept_all_files">Minden fájltípus elfogadása</string>
-  <!-- substratum dashboard tile title -->
-  <string name="substratum_settings_title">Substratum</string>
   <!-- Camera sound switch -->
   <string name="camera_sounds_title">Kamera zárhang</string>
   <string name="camera_sounds_summary">Kamera exponáló hang engedélyezése</string>
@@ -144,9 +148,6 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Rezgés</string>
   <string name="lockscreen_vibrate_enabled_head">Rezgés feloldáskor</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
-  <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN megadásakor</string>
   <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
   <string name="notification_importance_very_low">Nincs teljes képernyős megszakítás, felugrás, hang vagy rezgés. Az értesítési lista alján jelenik meg. Elrejtés a zárképernyőn.</string>
   <!-- Linked / unlinked notification volume -->
@@ -211,4 +212,8 @@
   <string name="doze_notification_color_invert_title">Értesítés inverzió</string>
   <string name="doze_notification_color_invert_summary_off">Az értesítések nem kerülnek invertálásra. Sötét téma esetén használja.</string>
   <string name="doze_notification_color_invert_summary_on">Az értesítések invertálásra kerülnek. Világos/gyári téma esetén használja.</string>
+  <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Emelkedő csengő hangerő</string>
+  <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
+  <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
 </resources>

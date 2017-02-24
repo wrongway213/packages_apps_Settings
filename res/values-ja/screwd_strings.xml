@@ -105,8 +105,6 @@
   <string name="screenshot_sound_summary">スクリーンショットが撮影されたときに効果音を鳴らす</string>
   <!-- Bluetooth accept all files -->
   <string name="bluetooth_accept_all_files">すべてのファイル形式を許可</string>
-  <!-- substratum dashboard tile title -->
-  <string name="substratum_settings_title">Substratum</string>
   <!-- Camera sound switch -->
   <string name="camera_sounds_title">カメラのシャッター音</string>
   <string name="camera_sounds_summary">カメラのシャッター音を有効にする</string>
@@ -137,9 +135,6 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">バイブレーション</string>
   <string name="lockscreen_vibrate_enabled_head">ロック解除時にバイブさせる</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
-  <string name="unlock_quick_unlock_control_summary">正しいPINまたはパスワードを入力すると自動的にロックを解除する</string>
   <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">着信音と通知音をリンクさせる</string>
@@ -167,4 +162,5 @@
   <string name="menu_hide_substratum_icons">アイコンオーバーレイを表示しない</string>
   <!-- setting: show CPU info-->
   <!-- Doze pulse options -->
+  <!-- Increasing ring tone volume -->
 </resources>
