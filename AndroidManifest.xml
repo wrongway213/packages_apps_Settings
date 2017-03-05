@@ -3246,6 +3246,19 @@
                 android:resource="@string/expanded_desktop" />
         </activity>
 
+        <activity android:name="Settings$QuickSettingsSettingsActivity"
+                android:label="@string/qs"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.mrapocalypse.screwdshop.frags.QSFrag" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@string/qs" />
+        </activity>
+
         <service
             android:name=".SettingsDumpService"
             android:exported="true"

@@ -142,6 +142,7 @@ import com.mrapocalypse.screwdshop.frags.NavbarSettings;
 import com.mrapocalypse.screwdshop.frags.SmartbarSettings;
 import com.mrapocalypse.screwdshop.frags.PulseSettings;
 import com.mrapocalypse.screwdshop.frags.PieControl;
+import com.mrapocalypse.screwdshop.frags.QSFrag;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -384,6 +385,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             PulseSettings.class.getName(),
             PieControl.class.getName(),
             RunningServices.class.getName(),
+            QSFrag.class.getName()
     };
 
 
