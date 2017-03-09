@@ -63,6 +63,7 @@ import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedPreference;
 
 import com.mrapocalypse.screwdshop.prefs.CustomSeekBarPreference;
+import com.android.internal.util.screwd.screwdUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -118,6 +119,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_DOZE = "doze";
     private static final String KEY_ADVANCED_DOZE_OPTIONS = "advanced_doze_options";
 
+    private static final String KEY_HHDOZE = "hammerheaddoze";
+    private static final String KEY_HH_DOZE_PACKAGE_NAME = "com.cyanogenmod.settings.doze";
+
     private Preference mFontSizePref;
 
     private CustomSeekBarPreference mDashboardPortraitColumns;
@@ -132,9 +136,10 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private SwitchPreference mCameraGesturePreference;
     private SwitchPreference mAccelerometerPreference;
     private MultiSelectListPreference mRotationAnglesPreference;
-   private PreferenceCategory mDozeCategory;
+    private PreferenceCategory mDozeCategory;
     private SwitchPreference mDozePreference;
     private PreferenceScreen mAdvancedDozeOptions;
+    private PreferenceScreen mExtraDoze;
 
     private ContentObserver mAccelerometerRotationObserver =
             new ContentObserver(new Handler()) {
@@ -196,7 +201,10 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         } else {
             prefSet.removePreference(mDozeCategory);
         }
-
+        mExtraDoze = (PreferenceScreen) findPreference(KEY_HHDOZE);
+        if (!screwdUtils.isPackageInstalled(getActivity(), KEY_HH_DOZE_PACKAGE_NAME)) {
+            prefSet.removePreference(mExtraDoze);
+        }
         if (isTapToWakeAvailable(getResources())) {
             mTapToWakePreference = (SwitchPreference) findPreference(KEY_TAP_TO_WAKE);
             mTapToWakePreference.setOnPreferenceChangeListener(this);

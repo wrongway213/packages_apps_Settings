@@ -200,5 +200,15 @@
                 android:title="@string/doze_settings_title"
                 android:dependency="doze" />
 
+            <PreferenceScreen
+                android:key="hammerheaddoze"
+                android:title="@string/hh_doze_settings"
+                android:dependency="doze" >
+                <intent
+                    android:action="com.android.settings.action.EXTRA_SETTINGS"
+                    android:targetPackage="com.cyanogenmod.settings.doze"
+                    android:targetClass="com.cyanogenmod.settings.doze.DozeSettings" />
+            </PreferenceScreen>
+
          </PreferenceCategory>
 </PreferenceScreen>

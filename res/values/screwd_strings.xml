@@ -250,6 +250,7 @@
     <string name="doze_trigger_notification_summary_off">Notifications will not be utilized as a trigger</string>
     <string name="doze_brightness_title">Doze brightness level</string>
     <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
+    <string name="hh_doze_settings">Hammerhead Doze</string>
 
     <!-- App Ops Settings -->
     <string name="app_ops_settings">App ops</string>
