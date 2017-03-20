@@ -203,7 +203,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         }
         mExtraDoze = (PreferenceScreen) findPreference(KEY_HHDOZE);
         if (!screwdUtils.isPackageInstalled(getActivity(), KEY_HH_DOZE_PACKAGE_NAME)) {
-            prefSet.removePreference(mExtraDoze);
+            mDozeCategory.removePreference(mExtraDoze);
         }
         if (isTapToWakeAvailable(getResources())) {
             mTapToWakePreference = (SwitchPreference) findPreference(KEY_TAP_TO_WAKE);
