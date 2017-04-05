@@ -84,10 +84,6 @@
     <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
     <string name="media_scanner_on_boot_disabled">Do not scan media</string>
 
-    <!-- Advanced storage settings -->
-   <string name="storage_advanced_titlebar">Advanced Storage</string>
-   <string name="storage_menu_advanced">Advanced</string>
-
    <!-- USB data automatic unlock -->
    <string name="usb_data_auto_unlock_title">Unlock USB data</string>
    <string name="usb_data_auto_unlock_summary">Allow unlocked data access to your phone\'s storage through USB (MTP, PTP)</string>
