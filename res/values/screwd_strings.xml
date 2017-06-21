@@ -335,8 +335,4 @@
     <!-- Sound settings, custom charging sound, setting check box label -->
     <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
 
-    <!-- Fingerprint Quick Pulldown -->
-    <string name="quick_pulldown_fp_title">Fingerprint quick pulldown</string>
-    <string name="quick_pulldown_fp_summary">Enable expanding the Quick Settings with only one swipe on the fingerprint sensor</string>
-
 </resources>
