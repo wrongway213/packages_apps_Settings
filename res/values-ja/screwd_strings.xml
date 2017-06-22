@@ -66,9 +66,6 @@
   <string name="media_scanner_on_boot_enabled">メディアをスキャンする</string>
   <string name="media_scanner_on_boot_ask">スキャンするかを尋ねる(通知)</string>
   <string name="media_scanner_on_boot_disabled">メディアをスキャンしない</string>
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">高度なストレージ</string>
-  <string name="storage_menu_advanced">高度</string>
   <!-- USB data automatic unlock -->
   <string name="usb_data_auto_unlock_title">USB接続時でのデータ移動のロックを解除</string>
   <string name="usb_data_auto_unlock_summary">USB経由（MTP、PTP）での端末内のデータの移動をロックを解除し許可する</string>
@@ -135,32 +132,32 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">バイブレーション</string>
   <string name="lockscreen_vibrate_enabled_head">ロック解除時にバイブさせる</string>
-  <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">着信音と通知音をリンクさせる</string>
   <string name="notification_volume_option_title">通知の音量</string>
   <string name="ring_notification_volume_option_title">着信音と通知音の音量</string>
-  <!-- Advanced night mode tile -->
-  <string name="night_display_category_advanced">高度</string>
-  <string name="qs_night_brightness_value_title">自動的に輝度を下げる</string>
-  <string name="qs_night_brightness_value_dialog">読書灯を有効にすると自動的に低輝度に設定されます</string>
-  <string name="qs_night_bright_disabled">明るさを変更しない</string>
-  <string name="qs_night_bright_less">低輝度に設定</string>
-  <string name="qs_night_bright_medium">中間輝度に設定</string>
-  <string name="qs_night_bright_min">最低輝度に設定</string>
+  <!-- Advanced night mode brightness -->
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">Google カメラで前面カメラと背面カメラを切り替えるには、アプリを起動した状態で2 回ひねる動作を行います</string>
-  <!-- Double tap for doze -->
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum オーバーレイ</string>
   <string name="menu_show_substratum">オーバーレイを表示</string>
   <string name="menu_hide_substratum">オーバーレイを表示しない</string>
+  <!-- Force authorize substratum packages -->
   <!-- Manage applications: show substratum icon overlays -->
   <string name="filter_substratum_icons">Substratum アイコンオーバーレイ</string>
   <string name="menu_show_substratum_icons">アイコンオーバーレイを表示</string>
   <string name="menu_hide_substratum_icons">アイコンオーバーレイを表示しない</string>
   <!-- setting: show CPU info-->
-  <!-- Doze pulse options -->
   <!-- Increasing ring tone volume -->
+  <!-- Doze options -->
+  <!-- App Ops Settings -->
+  <!-- Battery stats reset -->
+  <!-- Category title for Charging sounds -->
+  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <!-- Sound settings, charging sounds label for ringtone == none -->
+  <!-- Sound settings, custom charging sound, setting check box label -->
 </resources>

@@ -72,9 +72,6 @@
   <string name="media_scanner_on_boot_enabled">Média keresése</string>
   <string name="media_scanner_on_boot_ask">Rákérdezés kereséskor (értesítés)</string>
   <string name="media_scanner_on_boot_disabled">Ne keressen médiát</string>
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Speciális tároló</string>
-  <string name="storage_menu_advanced">Haladó</string>
   <!-- USB data automatic unlock -->
   <string name="usb_data_auto_unlock_title">USB adat feloldása</string>
   <string name="usb_data_auto_unlock_summary">A telefon tárhelyén lévő adatokhoz való feloldott hozzáférés engedélyezése USB-n keresztül (MTP, PTP)</string>
@@ -148,30 +145,21 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Rezgés</string>
   <string name="lockscreen_vibrate_enabled_head">Rezgés feloldáskor</string>
-  <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
-  <string name="notification_importance_very_low">Nincs teljes képernyős megszakítás, felugrás, hang vagy rezgés. Az értesítési lista alján jelenik meg. Elrejtés a zárképernyőn.</string>
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">Csengő és értesítési hangok összekötése</string>
   <string name="notification_volume_option_title">Értesítési hangerő</string>
   <string name="ring_notification_volume_option_title">Csengő és értesítési hangerő</string>
-  <!-- Advanced night mode tile -->
-  <string name="night_display_category_advanced">Haladó</string>
-  <string name="qs_night_brightness_value_title">Automatikus fényerőcsökkentés</string>
-  <string name="qs_night_brightness_value_dialog">Éjszakai fény engedélyezésekor a fényerő értékét automatikusan alacsonyabbra állítja</string>
-  <string name="qs_night_bright_disabled">Ne módosítsa a fényerőt</string>
-  <string name="qs_night_bright_less">Alacsony fényerő beállítása</string>
-  <string name="qs_night_bright_medium">Közepes fényerő beállítása</string>
-  <string name="qs_night_bright_min">Minimum fényerő beállítása</string>
+  <!-- Advanced night mode brightness -->
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">A Google Kamera szelfi módba lépéséhez és abból való kilépéshez, duplán fogassa meg az eszközt, ha az alkalmazásban van</string>
-  <!-- Double tap for doze -->
-  <string name="double_tap_wake_doze_title">Dupla érintés környezeti kijelzőn az ébresztéshez</string>
-  <string name="double_tap_wake_doze_summary">Dupla érintés kérése a készülék felébresztéséhez a pulzáló környezeti kijelzőn</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum fedvények</string>
   <string name="menu_show_substratum">Fedvények megjelenítése</string>
   <string name="menu_hide_substratum">Fedvények elrejtése</string>
+  <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Minden téma alkalmazás engedélyezésének kényszerítése</string>
+  <string name="force_authorize_substratum_packages_summary">Az ismeretlen forrásból származó témák telepítésének engedélyezése</string>
   <!-- Manage applications: show substratum icon overlays -->
   <string name="filter_substratum_icons">Substratum ikonfedvények</string>
   <string name="menu_show_substratum_icons">Ikonfedvények megjelenítése</string>
@@ -179,41 +167,121 @@
   <!-- setting: show CPU info-->
   <string name="show_cpu_info">CPU info megjelenítése</string>
   <string name="show_cpu_info_summary">Jelenlegi CPU info mutatása képernyő átfedésben</string>
-  <!-- Doze pulse options -->
-  <string name="doze_settings">Doze beállítások</string>
-  <string name="summary_doze_enabled">Engedélyezve</string>
-  <string name="summary_doze_disabled">Letiltva</string>
-  <string name="doze_overwrite_value_title">Alapértelmezett beállítások felülírása</string>
-  <string name="doze_overwrite_value_summary">Alapértelmezett érték felülírásának engedélyezése felhasználói beállítással</string>
-  <string name="doze_pulse_title">Felhasználói beállítások</string>
-  <string name="doze_pulse_duration_in_title">Beúsztatás</string>
-  <string name="doze_pulse_duration_visible_title">Láthatóság időtartama</string>
-  <string name="doze_pulse_duration_out_title">Elhalványítás</string>
-  <string name="doze_trigger_pickup_title">Használja a szenzor jelzéseit</string>
-  <string name="doze_trigger_pickup_summary_on">A Pulse a felemelési érzékelőre reagál majd</string>
-  <string name="doze_trigger_pickup_summary_off">A felemelés érzékelő nem lesz eseményindító</string>
-  <string name="doze_trigger_notification_title">Értesítés eseményindító</string>
-  <string name="doze_trigger_notification_summary_on">A Pulse az értesítésekre reagál majd</string>
-  <string name="doze_trigger_notification_summary_off">Az értesítések nem lesznek eseményindítók</string>
-  <string name="doze_brightness_level_title">Fényerőszint</string>
-  <string name="onehundred_ms">100 ms</string>
-  <string name="twofifty_ms">250ms</string>
-  <string name="fivehundred_ms_default">500 ms (alapértelmezett)</string>
-  <string name="sevenfifty_ms">750 ms</string>
-  <string name="one_second">1 mp</string>
-  <string name="onehalf_second">1,5 mp</string>
-  <string name="two_second">2 mp</string>
-  <string name="twohalf_second">2,5 mp</string>
-  <string name="three_second_default">3 mp (alapértelmezett)</string>
-  <string name="threehalf_second">3,5 mp</string>
-  <string name="four_second">4 mp</string>
-  <string name="fourhalf_second">4,5 mp</string>
-  <string name="five_second">5 mp</string>
-  <string name="doze_notification_color_invert_title">Értesítés inverzió</string>
-  <string name="doze_notification_color_invert_summary_off">Az értesítések nem kerülnek invertálásra. Sötét téma esetén használja.</string>
-  <string name="doze_notification_color_invert_summary_on">Az értesítések invertálásra kerülnek. Világos/gyári téma esetén használja.</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Emelkedő csengő hangerő</string>
   <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
   <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
+  <string name="ime_switcher_notify">Beviteli mód választó</string>
+  <string name="ime_switcher_notify_summary">Beviteli mód választó megjelenítése az értesítési sávon</string>
+  <!-- Doze options -->
+  <string name="display_category_doze_options_title">Környezeti kijelző (doze) beállítások</string>
+  <string name="doze_settings_title">Haladó doze beállítások</string>
+  <string name="doze_fade_in_pickup_title">Előtűnés (felemelés)</string>
+  <string name="doze_fade_in_pickup_summary">Az az időtartam, amíg az értesítés előtűnik a felemés után (alapértelmezett: 100)</string>
+  <string name="doze_fade_in_doubletap_title">Előtűnés (dupla érintés)</string>
+  <string name="doze_fade_in_doubletap_summary">Az az időtartam, amíg az értesítés előtűnik a dupla érintés után (alapértelmezett: 900)</string>
+  <string name="doze_timeout_title">Időkorlát</string>
+  <string name="doze_timeout_summary">Az az időtartam, amíg az értesítés látható marad (alapértelmezett: 6000)</string>
+  <string name="doze_fade_out_title">Eltűnés</string>
+  <string name="doze_fade_out_summary">Az az időtartam, amíg a képernyő elsötétül az értesítés után (alapértelmezett: 6000)</string>
+  <string name="doze_wakeup_doubletap_title">Dupla érintés környezeti kijelzőn az ébresztéshez</string>
+  <string name="doze_wakeup_doubletap_summary_on">Dupla érintés kérése a készülék felébresztéséhez a pulzáló környezeti kijelzőn</string>
+  <string name="doze_wakeup_doubletap_summary_off">A környezeti kijelzőn egyszerű érintés szükséges az eszköz ébresztéséhez (alapértelmezett)</string>
+  <string name="doze_trigger_pickup_title">Felemelő mozdulat általi kiváltó</string>
+  <string name="doze_trigger_pickup_summary_on">Pulzálás a felemelési mozdulat által vezérelt (alapértelmezett)</string>
+  <string name="doze_trigger_pickup_summary_off">Felemelési mozdulat nem kerül beállításra kiváltóként</string>
+  <string name="doze_trigger_sigmotion_title">Jelentős mozgás általi kiváltó</string>
+  <string name="doze_trigger_sigmotion_summary_on">Pulzálás a jelentős mozgást érzékelő események által vezérelt (alapértelmezett)</string>
+  <string name="doze_trigger_sigmotion_summary_off">Jelentős mozgás nem kerül beállításra kiváltóként</string>
+  <string name="doze_trigger_doubletap_title">Dupla érintés általi kiváltó</string>
+  <string name="doze_trigger_doubletap_summary_on">Pulzálás a dupla érintés által vezérelt</string>
+  <string name="doze_trigger_doubletap_summary_off">Dupla érintés nem kerül beállításra kiváltóként (alapértelmezett)</string>
+  <string name="doze_trigger_notification_title">Értesítés eseményindító</string>
+  <string name="doze_trigger_notification_summary_on">Pulzálás az értesítések által vezérelt (alapértelmezett)</string>
+  <string name="doze_trigger_notification_summary_off">Az értesítések nem lesznek eseményindítók</string>
+  <string name="doze_brightness_title">Fényerőszint</string>
+  <string name="doze_brightness_summary">Pulzáló képernyő fényereje (a max engedélyezett fényerő %-a)</string>
+  <string name="hh_doze_settings">Hammerhead Doze</string>
+  <!-- App Ops Settings -->
+  <string name="app_ops_settings">Alkalmazásműveletek</string>
+  <string name="app_ops_settings_summary">Alk. engedélyek megtekintése és módosítása</string>
+  <string name="app_ops_cat_location">Hely</string>
+  <string name="app_ops_cat_personal">Személyes</string>
+  <string name="app_ops_cat_messaging">Üzenetek</string>
+  <string name="app_ops_cat_media">Média</string>
+  <string name="app_ops_cat_device">Eszköz</string>
+  <string name="app_ops_access_camera">kamera</string>
+  <string name="app_ops_access_location">tartózkodási hely</string>
+  <string name="app_ops_access_notifications">értesítések</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">auto. indítás</string>
+  <string name="app_ops_delete_call_log">hívásnapló törlése</string>
+  <string name="app_ops_delete_contacts">névjegyek törlése</string>
+  <string name="app_ops_delete_mms">MMS törlése</string>
+  <string name="app_ops_delete_sms">SMS törlése</string>
+  <string name="app_ops_draw_on_top">átfedő ablakok rajzolása</string>
+  <string name="app_ops_get_usage_stats">használati statisztikák elérése</string>
+  <string name="app_ops_keep_device_awake">ébrentartás</string>
+  <string name="app_ops_make_phone_call">hívás indítása</string>
+  <string name="app_ops_modify_calendar">naptár frissítése</string>
+  <string name="app_ops_modify_call_log">hívásnapló frissítése</string>
+  <string name="app_ops_modify_clipboard">vágólap módosítása</string>
+  <string name="app_ops_modify_contacts">névjegyek módosítása</string>
+  <string name="app_ops_modify_settings">beállítások módosítása</string>
+  <string name="app_ops_mute_unmute_microphone">mikrofon némítása</string>
+  <string name="app_ops_play_audio">hang lejátszása</string>
+  <string name="app_ops_post_notification">értesítés küldése</string>
+  <string name="app_ops_project_media">média átküldése</string>
+  <string name="app_ops_read_calendar">naptár olvasása</string>
+  <string name="app_ops_read_call_log">hívásnapló olvasása</string>
+  <string name="app_ops_read_clipboard">vágólap olvasása</string>
+  <string name="app_ops_read_contacts">névjegyek olvasása</string>
+  <string name="app_ops_read_mms">MMS olvasása</string>
+  <string name="app_ops_read_sms">SMS olvasása</string>
+  <string name="app_ops_receive_sms">SMS fogadása</string>
+  <string name="app_ops_record_audio">hangfelvétel</string>
+  <string name="app_ops_send_mms">MMS küldése</string>
+  <string name="app_ops_send_sms">SMS küldése</string>
+  <string name="app_ops_toast_window">buboréküzenetek</string>
+  <string name="app_ops_use_alarm_volume">ébresztési hangerő</string>
+  <string name="app_ops_use_audio_focus">audio fókusz</string>
+  <string name="app_ops_use_bluetooth_volume">Bluetooth hangerő</string>
+  <string name="app_ops_use_master_volume">fő hangerő</string>
+  <string name="app_ops_use_media_buttons">média gombok</string>
+  <string name="app_ops_use_media_volume">média hangereje</string>
+  <string name="app_ops_use_notification_volume">értesítési hangerő</string>
+  <string name="app_ops_use_ring_volume">csengetési hangerő</string>
+  <string name="app_ops_use_vibrate">érintési visszajelzés</string>
+  <string name="app_ops_use_voice_volume">telefonhívás hangereje</string>
+  <string name="app_ops_write_mms">MMS írása</string>
+  <string name="app_ops_write_sms">SMS írása</string>
+  <string name="app_ops_use_fingerprint">ujjlenyomat</string>
+  <string name="app_ops_add_voicemail">hangposta</string>
+  <string name="app_ops_read_phone_state">hozzáférés telefon állapotához</string>
+  <string name="app_ops_scan_wifi">Wi-Fi hálózatok keresése</string>
+  <string name="app_ops_change_wallpaper">háttérkép módosítása</string>
+  <string name="app_ops_assist_structure">támogatás struktúra</string>
+  <string name="app_ops_assist_screenshot">képernyőkép</string>
+  <string name="app_ops_use_body_sensors">test-érzékelők</string>
+  <string name="app_ops_read_cell_broadcasts">cellán belüli adások</string>
+  <string name="app_ops_mock_location">helyimitálás</string>
+  <string name="app_ops_read_external_storage">külső tároló olvasása</string>
+  <string name="app_ops_write_external_storage">külső tároló írása</string>
+  <string name="app_ops_turn_on_screen">képernyő bekapcsolása</string>
+  <string name="app_ops_get_accounts">eszköz-fiókok</string>
+  <string name="app_ops_run_in_background">futtatás a háttérben</string>
+  <!-- Battery stats reset -->
+  <string name="battery_stats_reset">Statisztika törlése</string>
+  <string name="battery_stats_message">Akkumulátor használati statisztika törlésre kerül</string>
+  <string name="ok_string">Ok</string>
+  <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">Töltés hangok</string>
+  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <string name="power_notifications_vibrate_title">Rezgés</string>
+  <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Értesítési hang</string>
+  <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Néma</string>
+  <!-- Sound settings, custom charging sound, setting check box label -->
 </resources>

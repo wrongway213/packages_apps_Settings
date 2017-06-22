@@ -30,7 +30,6 @@
   <!-- Density category -->
   <!-- Volume settings - Volume adjustment sound -->
   <!-- MediaScanner behavior on boot -->
-  <!-- Advanced storage settings -->
   <!-- USB data automatic unlock -->
   <!-- Sound settings -->
   <!-- Safe headset volume restore checkbox -->
@@ -46,15 +45,22 @@
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->
-  <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
   <!-- Linked / unlinked notification volume -->
-  <!-- Advanced night mode tile -->
+  <!-- Advanced night mode brightness -->
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
-  <!-- Double tap for doze -->
   <!-- Manage applications: show substratum overlays -->
+  <!-- Force authorize substratum packages -->
   <!-- Manage applications: show substratum icon overlays -->
   <!-- setting: show CPU info-->
-  <!-- Doze pulse options -->
   <!-- Increasing ring tone volume -->
+  <!-- Doze options -->
+  <!-- App Ops Settings -->
+  <!-- Battery stats reset -->
+  <!-- Category title for Charging sounds -->
+  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <!-- Sound settings, charging sounds label for ringtone == none -->
+  <!-- Sound settings, custom charging sound, setting check box label -->
 </resources>

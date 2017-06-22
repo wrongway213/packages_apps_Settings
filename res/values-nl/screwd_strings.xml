@@ -64,9 +64,6 @@
   <string name="media_scanner_on_boot_enabled">Scan media</string>
   <string name="media_scanner_on_boot_ask">Vragen om te scannen (melding)</string>
   <string name="media_scanner_on_boot_disabled">Scan niet naar media</string>
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Geavanceerde Opslag</string>
-  <string name="storage_menu_advanced">Geadvanceerd</string>
   <!-- USB data automatic unlock -->
   <string name="usb_data_auto_unlock_title">Ontgrendel USB gegevens</string>
   <string name="usb_data_auto_unlock_summary">Gegevenstoegang tot jouw telefoon automatisch toestaan via USB (MTP, PTP)</string>
@@ -133,27 +130,26 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Trillen</string>
   <string name="lockscreen_vibrate_enabled_head">Trillen tijdens ontgrendelen</string>
-  <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
-  <string name="notification_importance_very_low">Geen onderbreking van het volledige scherm, peeking, geluid of trillen. Toon aan de onderkant van de notificatielijst. Verbergen op het lockscreen.</string>
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">Volumes van beltoon en meldingen koppelen</string>
   <string name="notification_volume_option_title">Notificatie volume</string>
   <string name="ring_notification_volume_option_title">Volume beltoon en meldingen</string>
-  <!-- Advanced night mode tile -->
-  <string name="night_display_category_advanced">Geadvanceerd</string>
-  <string name="qs_night_brightness_value_title">Automatische helderheid</string>
-  <string name="qs_night_brightness_value_dialog">Automatisch lage helderheid instellen wanneer Night Light is geactiveerd</string>
-  <string name="qs_night_bright_disabled">Helderheid niet veranderen</string>
-  <string name="qs_night_bright_less">Stel lage helderheid in</string>
-  <string name="qs_night_bright_medium">Stel medium helderheid in</string>
-  <string name="qs_night_bright_min">Stel minimale helderheid in</string>
+  <!-- Advanced night mode brightness -->
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">Om over te schakelen naar selfie modus in Google Camera, draai twee keer met je pols</string>
-  <!-- Double tap for doze -->
   <!-- Manage applications: show substratum overlays -->
+  <!-- Force authorize substratum packages -->
   <!-- Manage applications: show substratum icon overlays -->
   <!-- setting: show CPU info-->
-  <!-- Doze pulse options -->
   <!-- Increasing ring tone volume -->
+  <!-- Doze options -->
+  <!-- App Ops Settings -->
+  <!-- Battery stats reset -->
+  <!-- Category title for Charging sounds -->
+  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <!-- Sound settings, charging sounds label for ringtone == none -->
+  <!-- Sound settings, custom charging sound, setting check box label -->
 </resources>

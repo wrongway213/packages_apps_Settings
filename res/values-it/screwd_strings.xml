@@ -72,9 +72,6 @@
   <string name="media_scanner_on_boot_enabled">Scansione media</string>
   <string name="media_scanner_on_boot_ask">Chiedi per scansione (notifica)</string>
   <string name="media_scanner_on_boot_disabled">Non eseguire scansione media</string>
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Storage Avanzato</string>
-  <string name="storage_menu_advanced">Avanzato</string>
   <!-- USB data automatic unlock -->
   <string name="usb_data_auto_unlock_title">Sblocca dati USB</string>
   <string name="usb_data_auto_unlock_summary">Consente l\'accesso sbloccato dei dati di archiviazione del telefono tramite USB (MTP, PTP)</string>
@@ -148,30 +145,19 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Vibrazione</string>
   <string name="lockscreen_vibrate_enabled_head">Vibra quando sblocchi</string>
-  <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
-  <string name="notification_importance_very_low">Nessuna interruzione a schermo intero, peeking, suono o vibrazione. Visualizza nella parte inferiore dell\'elenco di notifica. Nascondi dalla schermata di blocco.</string>
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">Collega il volume della suoneria e delle notifiche</string>
   <string name="notification_volume_option_title">Volume di notifica</string>
   <string name="ring_notification_volume_option_title">Volume di suoneria e notifiche</string>
-  <!-- Advanced night mode tile -->
-  <string name="night_display_category_advanced">Avanzato</string>
-  <string name="qs_night_brightness_value_title">Valore luminosità da impostare</string>
-  <string name="qs_night_brightness_value_dialog">Valore da impostare quando si attiva la luminosità notturna</string>
-  <string name="qs_night_bright_disabled">Non cambiare luminosità</string>
-  <string name="qs_night_bright_less">Luminosità bassa</string>
-  <string name="qs_night_bright_medium">Luminosità media</string>
-  <string name="qs_night_bright_min">Luminosità al minimo</string>
+  <!-- Advanced night mode brightness -->
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">Per passare e uscire dalla modalità selfie in Google fotocamera, doppia torsione quando sei nell\'app</string>
-  <!-- Double tap for doze -->
-  <string name="double_tap_wake_doze_title">Doppio tocco per riattivare in doze</string>
-  <string name="double_tap_wake_doze_summary">Richiede un doppio tap per riattivare il dispositivo sullo schermo di impulso doze</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Temi Substratum</string>
   <string name="menu_show_substratum">Mostra temi</string>
   <string name="menu_hide_substratum">Nascondi temi</string>
+  <!-- Force authorize substratum packages -->
   <!-- Manage applications: show substratum icon overlays -->
   <string name="filter_substratum_icons">Icone temi Substratum</string>
   <string name="menu_show_substratum_icons">Mostra icone temi</string>
@@ -179,38 +165,21 @@
   <!-- setting: show CPU info-->
   <string name="show_cpu_info">Mostra informazioni CPU</string>
   <string name="show_cpu_info_summary">Mostra in sovraimpressione info CPU</string>
-  <!-- Doze pulse options -->
-  <string name="doze_settings">Impostazioni Doze</string>
-  <string name="summary_doze_enabled">Attivo</string>
-  <string name="summary_doze_disabled">Disattivo</string>
-  <string name="doze_overwrite_value_title">Sovrascrivi predefinite</string>
-  <string name="doze_overwrite_value_summary">Consenti sovrascrittura dei valori predefiniti con configurazione utente</string>
-  <string name="doze_pulse_title">Impostazioni configurabili dall\'utente</string>
-  <string name="doze_pulse_duration_in_title">Dissolvenza in entrata</string>
-  <string name="doze_pulse_duration_visible_title">Durata visibilità</string>
-  <string name="doze_pulse_duration_out_title">Dissolvenza in uscita</string>
-  <string name="doze_trigger_pickup_title">Innesco sensore di sollevamento</string>
-  <string name="doze_trigger_pickup_summary_on">Il lampeggio sarà attivato dal sensore di sollevamento</string>
-  <string name="doze_trigger_pickup_summary_off">Il sensore di sollevamento non verrà utilizzato come attivatore</string>
-  <string name="doze_trigger_notification_title">Innesco notifica</string>
-  <string name="doze_trigger_notification_summary_on">Il lampeggio verrà attivato dalle notifiche</string>
-  <string name="doze_trigger_notification_summary_off">Le notifiche non verranno utilizzate come innesco</string>
-  <string name="doze_brightness_level_title">Livello luminosità</string>
-  <string name="onehundred_ms">100 ms</string>
-  <string name="twofifty_ms">250 ms</string>
-  <string name="fivehundred_ms_default">500 ms (predefinito)</string>
-  <string name="sevenfifty_ms">750 ms</string>
-  <string name="one_second">1 s</string>
-  <string name="onehalf_second">1.5 s</string>
-  <string name="two_second">2 s</string>
-  <string name="twohalf_second">2.5 s</string>
-  <string name="three_second_default">3 s (predefinito)</string>
-  <string name="threehalf_second">3.5 s</string>
-  <string name="four_second">4 s</string>
-  <string name="fourhalf_second">4.5 s</string>
-  <string name="five_second">5 s</string>
-  <string name="doze_notification_color_invert_title">Inversione notifica</string>
-  <string name="doze_notification_color_invert_summary_off">Le notifiche non saranno invertite. Usa per temi scuri.</string>
-  <string name="doze_notification_color_invert_summary_on">Le notifiche saranno invertite. Usa con tema chiaro/stock.</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Volume della suoneria crescente</string>
+  <string name="increasing_ring_min_volume_title">Volume iniziale</string>
+  <string name="increasing_ring_ramp_up_time_title">Tempo di incremento</string>
+  <string name="ime_switcher_notify">Selettore notifica</string>
+  <string name="ime_switcher_notify_summary">Visualizza la notifica del selettore metodo di immissione</string>
+  <!-- Doze options -->
+  <string name="doze_trigger_notification_title">Innesco notifica</string>
+  <string name="doze_trigger_notification_summary_off">Le notifiche non verranno utilizzate come innesco</string>
+  <!-- App Ops Settings -->
+  <!-- Battery stats reset -->
+  <!-- Category title for Charging sounds -->
+  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <!-- Sound settings, charging sounds label for ringtone == none -->
+  <!-- Sound settings, custom charging sound, setting check box label -->
 </resources>

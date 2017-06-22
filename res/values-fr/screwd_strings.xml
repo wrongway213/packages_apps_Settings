@@ -64,9 +64,6 @@
   <string name="media_scanner_on_boot_enabled">Analyse des médias</string>
   <string name="media_scanner_on_boot_ask">Demander pour analyser (notification)</string>
   <string name="media_scanner_on_boot_disabled">Ne pas analyser les médias</string>
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Paramètres avancés du stockage</string>
-  <string name="storage_menu_advanced">Avancé</string>
   <!-- USB data automatic unlock -->
   <string name="usb_data_auto_unlock_title">Déverrouiller les données USB</string>
   <string name="usb_data_auto_unlock_summary">Permettre un accès libre aux données du stockage de votre téléphone via USB (MTP, PTP)</string>
@@ -133,27 +130,26 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Vibreur</string>
   <string name="lockscreen_vibrate_enabled_head">Vibrer lors du déverrouillage</string>
-  <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
-  <string name="notification_importance_very_low">Aucune interruption en plein écran, sonore ou vibration. Afficher au bas de la liste de notification. Masquer sur l’écran de verrouillage.</string>
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">Lier les volumes de la sonnerie et des notifications</string>
   <string name="notification_volume_option_title">Volume des notifications</string>
   <string name="ring_notification_volume_option_title">Volume de la sonnerie et des notifications</string>
-  <!-- Advanced night mode tile -->
-  <string name="night_display_category_advanced">Avancé</string>
-  <string name="qs_night_brightness_value_title">Baisser automatiquement la luminosité</string>
-  <string name="qs_night_brightness_value_dialog">Mettre automatiquement la luminosité au minimum une fois le \"Mode Nuit\" acitvé</string>
-  <string name="qs_night_bright_disabled">Ne pas changer la luminosité</string>
-  <string name="qs_night_bright_less">Définir la luminosité faible</string>
-  <string name="qs_night_bright_medium">Définir la luminosité moyenne</string>
-  <string name="qs_night_bright_min">Définir la luminosité minimum</string>
+  <!-- Advanced night mode brightness -->
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">Pour entrer et sortie du mode \"selfie\" dans la Caméra Google, retourner rapidement le téléphone deux fois quand vous êtes dans l\'application</string>
-  <!-- Double tap for doze -->
   <!-- Manage applications: show substratum overlays -->
+  <!-- Force authorize substratum packages -->
   <!-- Manage applications: show substratum icon overlays -->
   <!-- setting: show CPU info-->
-  <!-- Doze pulse options -->
   <!-- Increasing ring tone volume -->
+  <!-- Doze options -->
+  <!-- App Ops Settings -->
+  <!-- Battery stats reset -->
+  <!-- Category title for Charging sounds -->
+  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <!-- Sound settings, charging sounds label for ringtone == none -->
+  <!-- Sound settings, custom charging sound, setting check box label -->
 </resources>

@@ -47,6 +47,12 @@
   <string name="device_info_title">Telefoninformationen</string>
   <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
   <string name="supersu_title">SuperSU</string>
+  <string name="substratum_title">Substratum</string>
+  <string name="substratum_summary">Theme dein Gerät</string>
+  <string name="superuser_title">Superuser</string>
+  <string name="superuser_summary">Root-Zugang verwalten</string>
+  <string name="magisk_title">Magisk Manager</string>
+  <string name="magisk_summary">Module und Einstellungen steuern</string>
   <!-- Display : Rotation -->
   <string name="display_rotation_title">Drehwinkel</string>
   <string name="display_rotation_disabled">Deaktiveirt</string>
@@ -66,9 +72,6 @@
   <string name="media_scanner_on_boot_enabled">Medien scannen</string>
   <string name="media_scanner_on_boot_ask">Zum Scannen nachfragen (Benachrichtigung)</string>
   <string name="media_scanner_on_boot_disabled">Medien nicht scannen</string>
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Erweiterter Massenspeicher</string>
-  <string name="storage_menu_advanced">Erweitert</string>
   <!-- USB data automatic unlock -->
   <string name="usb_data_auto_unlock_title">USB-Daten entsperren</string>
   <string name="usb_data_auto_unlock_summary">Entsperrt Daten Zugriff auf Speicher des Telefons über USB (MTP, PTP)</string>
@@ -142,30 +145,19 @@
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Vibrieren</string>
   <string name="lockscreen_vibrate_enabled_head">Beim Entsperren vibrieren</string>
-  <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
-  <string name="notification_importance_very_low">Kein Vollbild-Unterbrechung, HeadsUp, Ton oder Vibration. Am unteren Rand der Benachrichtigungsliste anzeigen Ausblenden vom Sperrbildschirm.</string>
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">Klingel- und Benachrichtigungslautstärken verbinden</string>
   <string name="notification_volume_option_title">Benachrichtigungs-Lautstärke</string>
   <string name="ring_notification_volume_option_title">Klingel- und Benachrichtigungslautstärke</string>
-  <!-- Advanced night mode tile -->
-  <string name="night_display_category_advanced">Erweitert</string>
-  <string name="qs_night_brightness_value_title">Automatische Helligkeitsregelung</string>
-  <string name="qs_night_brightness_value_dialog">Automatisch geringen Helligkeitswert festlegen, wenn Nachtlicht aktiviert wird</string>
-  <string name="qs_night_bright_disabled">Helligkeit nicht ändern</string>
-  <string name="qs_night_bright_less">Geringe Helligkeit einstellen</string>
-  <string name="qs_night_bright_medium">Mittlere Helligkeit einstellen</string>
-  <string name="qs_night_bright_min">Minimale Helligkeit einstellen</string>
+  <!-- Advanced night mode brightness -->
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">Um in und aus dem Selfie Modus in der Google Kamera zu wechseln, drehen sie das Gerät 2 mal schnell hintereinander wenn sie sich in der App befinden</string>
-  <!-- Double tap for doze -->
-  <string name="double_tap_wake_doze_title">Doppeltippen um von Doze aufzuwecken</string>
-  <string name="double_tap_wake_doze_summary">Erfordert ein Doppel-Tippen, um das Gerät aus dem Doze-Puls-Bildschirm zu wecken</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum - Überlagerungen</string>
   <string name="menu_show_substratum">Zeige Überlagerungen</string>
   <string name="menu_hide_substratum">Verberge Überlagerungen</string>
+  <!-- Force authorize substratum packages -->
   <!-- Manage applications: show substratum icon overlays -->
   <string name="filter_substratum_icons">Substratum Icon Überlagerungen</string>
   <string name="menu_show_substratum_icons">Zeige Icon Überlagerungen</string>
@@ -173,38 +165,21 @@
   <!-- setting: show CPU info-->
   <string name="show_cpu_info">Zeige CPU Informationen</string>
   <string name="show_cpu_info_summary">Bildschirm-Überlagerung mit aktueller CPU Information</string>
-  <!-- Doze pulse options -->
-  <string name="doze_settings">Doze Einstellungen</string>
-  <string name="summary_doze_enabled">Aktiviert</string>
-  <string name="summary_doze_disabled">Deaktiviert</string>
-  <string name="doze_overwrite_value_title">Standardwerte überschreiben</string>
-  <string name="doze_overwrite_value_summary">Überschreiben des Standardwertes durch Benutzerkonfiguration erlauben</string>
-  <string name="doze_pulse_title">Benutzerkonfigurierbare Einstellungen</string>
-  <string name="doze_pulse_duration_in_title">Einblenden</string>
-  <string name="doze_pulse_duration_visible_title">Sichtbarkeitsdauer</string>
-  <string name="doze_pulse_duration_out_title">Ausblenden</string>
-  <string name="doze_trigger_pickup_title">Bewegungssensor verwenden</string>
-  <string name="doze_trigger_pickup_summary_on">Puls wird durch den Bewegungssensor ausgelöst</string>
-  <string name="doze_trigger_pickup_summary_off">Bewegungssensor wird nicht als Auslöser verwendet</string>
-  <string name="doze_trigger_notification_title">Benachrichtungsauslöser</string>
-  <string name="doze_trigger_notification_summary_on">Puls wird durch Benachrichtigungen ausgelöst</string>
-  <string name="doze_trigger_notification_summary_off">Benachrichtigungen werden nicht als Auslöser verwendet</string>
-  <string name="doze_brightness_level_title">Helligkeitsstufe</string>
-  <string name="onehundred_ms">100 ms</string>
-  <string name="twofifty_ms">250 ms</string>
-  <string name="fivehundred_ms_default">500 ms (Standard)</string>
-  <string name="sevenfifty_ms">750 ms</string>
-  <string name="one_second">1 s</string>
-  <string name="onehalf_second">1,5 s</string>
-  <string name="two_second">2 s</string>
-  <string name="twohalf_second">2,5 s</string>
-  <string name="three_second_default">3 s (Standard)</string>
-  <string name="threehalf_second">3,5 s</string>
-  <string name="four_second">4 s</string>
-  <string name="fourhalf_second">4,5 s</string>
-  <string name="five_second">5 s</string>
-  <string name="doze_notification_color_invert_title">Benachrichtigungsfarbe invertieren</string>
-  <string name="doze_notification_color_invert_summary_off">Benachrichtigungen werden nicht invertiert. Verwenden für dunkle Designs.</string>
-  <string name="doze_notification_color_invert_summary_on">Benachrichtigungen werden invertiert. Verwenden für helle/Standard Designs.</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
+  <string name="increasing_ring_min_volume_title">Startlautstärke</string>
+  <string name="increasing_ring_ramp_up_time_title">Anstiegszeit</string>
+  <string name="ime_switcher_notify">Eingabemethode-Benachrichtigung</string>
+  <string name="ime_switcher_notify_summary">Eingabemethode Benachrichtigung anzeigen</string>
+  <!-- Doze options -->
+  <string name="doze_trigger_notification_title">Benachrichtungsauslöser</string>
+  <string name="doze_trigger_notification_summary_off">Benachrichtigungen werden nicht als Auslöser verwendet</string>
+  <!-- App Ops Settings -->
+  <!-- Battery stats reset -->
+  <!-- Category title for Charging sounds -->
+  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <!-- Sound settings, charging sounds label for ringtone == none -->
+  <!-- Sound settings, custom charging sound, setting check box label -->
 </resources>
