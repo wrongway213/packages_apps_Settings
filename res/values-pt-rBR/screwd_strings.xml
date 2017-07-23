@@ -16,51 +16,284 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
+  <string name="ok">Ok</string>
+  <string name="reset">Resetar</string>
+  <string name="attention">Atenção</string>
+  <string name="enabled">Ativado</string>
+  <string name="default_string">Padrão</string>
+  <string name="add">Adicionar</string>
+  <string name="choose_app">Selecionar aplicativo</string>
+  <string name="customization">Customização</string>
+  <string name="screwd_settings">Configurações Screw\'d</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Não há necessidade, as opções do desenvolvedor são habilitadas por padrão.</string>
   <!-- About phone screen, Screw'd version name-->
+  <string name="mod_version">Versão Screw\'d</string>
   <!-- About phone screen, Screw'd unknown name-->
+  <string name="mod_version_default">Padrão</string>
   <!-- About phone screen, build date of ROM -->
+  <string name="build_date">Data de compilação</string>
+  <string name="build_date_default">01-01-2014-0000</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+  <string name="processor_info">Processador</string>
   <!-- RAM: Memory Info -->
+  <string name="mem_info">RAM</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Senha do backup local</string>
   <!-- Vendor version -->
+  <string name="vendor_version">Versão do fornecedor</string>
+  <string name="vendor_version_default">Desconhecido</string>
   <!-- Phone info shortcut -->
+  <string name="device_info_title">Informação do telefone</string>
   <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+  <string name="supersu_title">SuperSU</string>
+  <string name="substratum_title">Substratum</string>
+  <string name="substratum_summary">Personalizar o tema do dispositivo</string>
+  <string name="superuser_title">Superusuário</string>
+  <string name="superuser_summary">Gerenciar acesso root</string>
+  <string name="magisk_title">Magisk</string>
+  <string name="magisk_summary">Controlar módulos e configurações</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Rotação</string>
+  <string name="display_rotation_disabled">Desativado</string>
+  <string name="display_rotation_unit">graus</string>
+  <string name="display_rotation_category_title">Modos de rotação</string>
+  <string name="display_rotation_0_title">0 grau</string>
+  <string name="display_rotation_90_title">90 graus</string>
+  <string name="display_rotation_180_title">180 graus</string>
+  <string name="display_rotation_270_title">270 graus</string>
   <!-- Density category -->
+  <string name="density_category">Opções de densidade</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Ajuste do volume dos sons</string>
   <!-- MediaScanner behavior on boot -->
+  <string name="options_settings_title">Opções</string>
+  <string name="media_scanner_on_boot_title">Comportamento do MediaScanner no boot</string>
+  <string name="media_scanner_on_boot_enabled">Pesquisar mídia</string>
+  <string name="media_scanner_on_boot_ask">Pedir para fazer a varredura (notificação)</string>
+  <string name="media_scanner_on_boot_disabled">Não pesquisar mídia</string>
   <!-- USB data automatic unlock -->
+  <string name="usb_data_auto_unlock_title">Desbloquear dados do USB</string>
+  <string name="usb_data_auto_unlock_summary">Permite desbloquear o acesso de dados para o armazenamento do seu telefone através do USB (MTP, PTP)</string>
+  <string name="usb_data_auto_unlock_warning_summary">Seu dispositivo irá estabelecer conexões desprotegidas, toda vez que você conectá-lo a um PC. Bloqueios de tela seguros desabilitam esta opção automaticamente.\n\nEsta é ainda uma característica experimental, use com cautela.</string>
   <!-- Sound settings -->
+  <string name="advanced_sound_title">Opções avançadas</string>
+  <string name="sound_title">Som</string>
   <!-- Safe headset volume restore checkbox -->
+  <string name="safe_headset_volume_title">Volume seguro do fone de ouvido</string>
+  <string name="safe_headset_volume_summary">Prevenir niveis de volumes altos quando os fones de ouvido forem conectados pela primera vez</string>
+  <string name="safe_headset_volume_warning_dialog_text">Ouvir música com volume alto por longos períodos pode prejudicar sua audição. Desative com cuidado.</string>
   <!-- Less Notification sounds -->
+  <string name="notifications_category_title">Notificações</string>
+  <string name="less_notification_sounds_title">Sons de notificação menos frequentes</string>
+  <string name="less_notification_sounds_summary">Limitar os sons de notificação de cada aplicação para tocar apenas uma vez por período de tempo definido</string>
+  <string name="less_notification_sounds_default">Comportamento padrão</string>
+  <string name="less_notification_sounds_3s">3 segundos</string>
+  <string name="less_notification_sounds_5s">5 segundos</string>
+  <string name="less_notification_sounds_10s">10 segundos</string>
+  <string name="less_notification_sounds_15s">15 segundos</string>
+  <string name="less_notification_sounds_30s">30 segundos</string>
+  <string name="less_notification_sounds_45s">45 segundos</string>
+  <string name="less_notification_sounds_1m">1 minuto</string>
+  <string name="less_notification_sounds_2m">2 minutos</string>
+  <string name="less_notification_sounds_5m">5 minutos</string>
   <!-- Dashboard options -->
+  <string name="dashboard_category">Configurações do painel</string>
+  <string name="dashboard_suggestions_title">Sugestões</string>
+  <string name="summary_dashboard_suggestions_enabled">Sugestões do painel estão habilitadas</string>
+  <string name="summary_dashboard_suggestions_disabled">Sugestões do painel estão desabilitadas</string>
+  <string name="remove_tile_summaries_title">Resumos</string>
+  <string name="remove_tile_summaries_summary_enabled">Resumos do painel estão habilitados</string>
+  <string name="remove_tile_summaries_summary_disabled">Resumos do painel estão desabilitados</string>
+  <string name="dashboard_conditions_title">Condições</string>
+  <string name="summary_dashboard_conditions_enabled">Condições do painel estão habilitadas</string>
+  <string name="summary_dashboard_conditions_disabled">Condições do painel estão desativadas</string>
+  <string name="dashboard_columns_portrait_title">Colunas (retrato)</string>
+  <string name="dashboard_columns_landscape_title">Colunas (paisagem)</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Som de captura de tela</string>
+  <string name="screenshot_sound_summary">Tocar um efeito sonoro ao capturar a tela</string>
   <!-- Bluetooth accept all files -->
+  <string name="bluetooth_accept_all_files">Aceitar todos os tipos de arquivo</string>
   <!-- Camera sound switch -->
+  <string name="camera_sounds_title">Som do obturador da Câmera</string>
+  <string name="camera_sounds_summary">Ativar o som do obturador da Câmera</string>
+  <string name="camera_sound_warning_dialog_text">Desabilitar o som do obturador da câmera é ilegal em algumas áreas! Por favor, verifique a lei aplicável no seu país</string>
   <!-- ADB debugging notifications -->
+  <string name="enable_adb_custom">Depuração Android</string>
+  <string name="enable_adb_summary_custom">Habilitar a interface do Android Debug Bridge (adb)</string>
+  <string name="adb_notify">Notificação ADB</string>
+  <string name="adb_notify_summary">Exibir uma notificação quando o USB ou a rede de depuração está habilitada</string>
+  <string name="adb_over_network">ADB através da rede</string>
+  <string name="adb_over_network_summary">Habilitar a depuração TCP/IP por interfaces de rede (Wi\u2011Fi, redes USB). Esta configuração é redefinida ao reiniciar</string>
+  <string name="adb_over_network_warning">AVISO: Quando o ADB através da rede está ativado, seu telefone estará aberto para invasões em todas as redes conectadas!\n\nApenas use este recurso quando você estiver conectado em uma rede confiável.\n\nVocê realmente quer habilitar esta função?</string>
   <!-- Wake on Plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Acordar ao plugar/desplugar carregador</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Liga a tela quando conectar ou desconectar uma fonte de energia</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Cor de aviso</string>
+  <string name="battery_saver_color_summary">Habilitar a cor laranja - barras de status/navegação quando o economizador de bateria está ativado</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3x3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Mostrar erro no padrão</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Mostrar pontos do padrão</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">Vibrar</string>
+  <string name="lockscreen_vibrate_enabled_head">Vibrar quando desbloquear</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">Mesclar volume das notificações com toque</string>
+  <string name="notification_volume_option_title">Volume de notificação</string>
+  <string name="ring_notification_volume_option_title">Volume de Toque e Notificação</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Alterar brilho</string>
+  <string name="night_brightness_value_title">Brilho do Modo Noturno</string>
+  <string name="night_brightness_text">Quando o Modo Noturno é ativado, automaticamente ocorre um ajuste no brilho da tela. O brilho padrão é definido como \"Sugerido\"</string>
+  <string name="night_bright_disabled">Desativado</string>
+  <string name="night_bright_low">Sugerido</string>
+  <string name="night_bright_medium">Mais claro</string>
+  <string name="night_bright_min">Mais escuro</string>
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+  <string name="double_twist_for_camera_mode_summary_pn">Alterne entre as câmeras traseira e frontal com um movimento rápido do pulso, no Google câmera</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Camadas do Substratum</string>
+  <string name="menu_show_substratum">Exibir camadas</string>
+  <string name="menu_hide_substratum">Ocultar camadas</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Forçar autorização para cada aplicação de tema</string>
+  <string name="force_authorize_substratum_packages_summary">Permitir aplicações de temas de fontes desconhecidas</string>
   <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Camadas de ícones Substratum</string>
+  <string name="menu_show_substratum_icons">Mostrar camadas de ícone</string>
+  <string name="menu_hide_substratum_icons">Ocultar camadas de ícone</string>
   <!-- setting: show CPU info-->
+  <string name="show_cpu_info">Mostrar informação da CPU</string>
+  <string name="show_cpu_info_summary">Mostrar sobreposição na tela com informações da CPU</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Aumentar gradualmente o volume</string>
+  <string name="increasing_ring_min_volume_title">Volume inicial</string>
+  <string name="increasing_ring_ramp_up_time_title">Tempo de construção</string>
+  <string name="ime_switcher_notify">Notificação do método de entrada</string>
+  <string name="ime_switcher_notify_summary">Mostrar notificação do seletor de método de entrada</string>
   <!-- Doze options -->
+  <string name="display_category_doze_options_title">Opções da tela ambiente</string>
+  <string name="doze_settings_title">Opções avançadas do modo doze</string>
+  <string name="doze_fade_in_pickup_title">Esmaecer</string>
+  <string name="doze_fade_in_pickup_summary">Tempo que a tela de pulso se desvanece (padrão 100ms)</string>
+  <string name="doze_fade_in_doubletap_title">Desvanecer (duplo toque)</string>
+  <string name="doze_fade_in_doubletap_summary">Tempo que a tela de pulso se desvanece ao tocar duplamente (padrão 900ms)</string>
+  <string name="doze_timeout_title">Tempo limite</string>
+  <string name="doze_timeout_summary">Tempo que a tela de pulso deve ficar ligada (6 segundos por padrão)</string>
+  <string name="doze_fade_out_title">Desvanecer</string>
+  <string name="doze_fade_out_summary">Tempo do desvanecimento da tela de pulso (600 milissegundos por padrão)</string>
+  <string name="doze_wakeup_doubletap_title">Duplo toque para acordar</string>
+  <string name="doze_wakeup_doubletap_summary_on">Exigir um duplo toque para acordar o dispositivo na tela de pulso</string>
+  <string name="doze_wakeup_doubletap_summary_off">Exigir um toque simples para acordar o dispositivo na tela de pulso (padrão)</string>
+  <string name="doze_trigger_pickup_title">Ativação do gesto de pegar o dispositivo</string>
+  <string name="doze_trigger_pickup_summary_on">As pulsações irão ser acionadas pelos sensores de movimento</string>
+  <string name="doze_trigger_pickup_summary_off">O gesto de pegar o dispositivo não será utilizado como mecanismo de ativação</string>
+  <string name="doze_trigger_sigmotion_title">Gatilho de movimento significativo</string>
+  <string name="doze_trigger_sigmotion_summary_on">A tela de pulso será acionada por eventos significativos do sensor de movimento (padrão)</string>
+  <string name="doze_trigger_sigmotion_summary_off">Sensor de movimento significativo não será utilizado como um mecanismo de acionamento da tela de pulso</string>
+  <string name="doze_trigger_doubletap_title">Toque duplo</string>
+  <string name="doze_trigger_doubletap_summary_on">A tela de pulso será acionada por um duplo toque</string>
+  <string name="doze_trigger_doubletap_summary_off">O toque duplo não será utilizado como um mecanismo de disparo (padrão)</string>
+  <string name="doze_trigger_notification_title">Gatilho de notificação</string>
+  <string name="doze_trigger_notification_summary_on">As pulsações serão acionadas por notificações</string>
+  <string name="doze_trigger_notification_summary_off">As notificações não serão utilizadas como mecanismo de disparo</string>
+  <string name="doze_brightness_title">Nível de brilho</string>
+  <string name="doze_brightness_summary">Nível de brilho da tela de pulso (% do brilho máximo permitido)</string>
+  <string name="hh_doze_settings">Tela ambiente: Nexus 5 (hammerhead)</string>
   <!-- App Ops Settings -->
+  <string name="app_ops_settings">Operações de apps</string>
+  <string name="app_ops_settings_summary">Visualizar ou alterar permissões de aplicativos</string>
+  <string name="app_ops_cat_location">Local</string>
+  <string name="app_ops_cat_personal">Pessoal</string>
+  <string name="app_ops_cat_messaging">SMS/MMS</string>
+  <string name="app_ops_cat_media">Multimídia</string>
+  <string name="app_ops_cat_device">Dispositivo</string>
+  <string name="app_ops_access_camera">câmera</string>
+  <string name="app_ops_access_location">local</string>
+  <string name="app_ops_access_notifications">notificações</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">início automático</string>
+  <string name="app_ops_delete_call_log">excluir registro de chamadas</string>
+  <string name="app_ops_delete_contacts">excluir contatos</string>
+  <string name="app_ops_delete_mms">excluir MMS</string>
+  <string name="app_ops_delete_sms">excluir SMS</string>
+  <string name="app_ops_draw_on_top">Sobrepor a outros apps</string>
+  <string name="app_ops_get_usage_stats">acesso as estatísticas de uso</string>
+  <string name="app_ops_keep_device_awake">manter acordado</string>
+  <string name="app_ops_make_phone_call">fazer chamadas</string>
+  <string name="app_ops_modify_calendar">modificar calendário</string>
+  <string name="app_ops_modify_call_log">modificar registro de chamadas</string>
+  <string name="app_ops_modify_clipboard">modificar área de transferência</string>
+  <string name="app_ops_modify_contacts">modificar contatos</string>
+  <string name="app_ops_modify_settings">modificar config. do sistema</string>
+  <string name="app_ops_mute_unmute_microphone">ativar/desativar microfone</string>
+  <string name="app_ops_play_audio">reproduzir áudio</string>
+  <string name="app_ops_post_notification">mostrar notificações</string>
+  <string name="app_ops_project_media">transmitir multimídia</string>
+  <string name="app_ops_read_calendar">acesso ao calendário</string>
+  <string name="app_ops_read_call_log">acesso ao registro de chamadas</string>
+  <string name="app_ops_read_clipboard">acesso a área de transferência</string>
+  <string name="app_ops_read_contacts">acesso aos contatos</string>
+  <string name="app_ops_read_mms">acesso MMS</string>
+  <string name="app_ops_read_sms">acesso SMS</string>
+  <string name="app_ops_receive_sms">receber SMS</string>
+  <string name="app_ops_record_audio">gravar áudio</string>
+  <string name="app_ops_send_mms">enviar MMS</string>
+  <string name="app_ops_send_sms">enviar SMS</string>
+  <string name="app_ops_toast_window">notificações Toast</string>
+  <string name="app_ops_use_alarm_volume">volume do alarme</string>
+  <string name="app_ops_use_audio_focus">prioridade de áudio</string>
+  <string name="app_ops_use_bluetooth_volume">volume do Bluetooth</string>
+  <string name="app_ops_use_master_volume">volume principal</string>
+  <string name="app_ops_use_media_buttons">botões de mídia</string>
+  <string name="app_ops_use_media_volume">volume de mídia</string>
+  <string name="app_ops_use_notification_volume">volume de notificação</string>
+  <string name="app_ops_use_ring_volume">volume do toque</string>
+  <string name="app_ops_use_vibrate">feedback háptico</string>
+  <string name="app_ops_use_voice_volume">volume de chamadas de voz</string>
+  <string name="app_ops_write_mms">escrever MMS</string>
+  <string name="app_ops_write_sms">escrever SMS</string>
+  <string name="app_ops_use_fingerprint">impressão digital</string>
+  <string name="app_ops_add_voicemail">correio de voz</string>
+  <string name="app_ops_read_phone_state">acesso ao estado do telefone</string>
+  <string name="app_ops_scan_wifi">Buscar redes Wi-Fi</string>
+  <string name="app_ops_change_wallpaper">alterações papel de parede</string>
+  <string name="app_ops_assist_structure">estrutura de assistência</string>
+  <string name="app_ops_assist_screenshot">captura de tela</string>
+  <string name="app_ops_use_body_sensors">sensores corporais</string>
+  <string name="app_ops_read_cell_broadcasts">difusão Celular</string>
+  <string name="app_ops_mock_location">local fictício</string>
+  <string name="app_ops_read_external_storage">ler armazenamento ext.</string>
+  <string name="app_ops_write_external_storage">escrever no armazenamento ext.</string>
+  <string name="app_ops_turn_on_screen">ativar a tela</string>
+  <string name="app_ops_get_accounts">contas do dispositivo</string>
+  <string name="app_ops_run_in_background">executar em segundo plano</string>
   <!-- Battery stats reset -->
+  <string name="battery_stats_reset">Resetar estatísticas</string>
+  <string name="battery_stats_message">Os históricos e estatísticas da bateria serão reiniciados</string>
+  <string name="ok_string">OK</string>
   <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">Sons de carregamento</string>
   <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+  <string name="power_notifications_conditions_title">Condições</string>
+  <string name="power_notifications_conditions_none">Nenhum</string>
+  <string name="power_notifications_conditions_both">Conectado e desconectado</string>
+  <string name="power_notifications_conditions_connect">Apenas conectado</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <string name="power_notifications_vibrate_title">Vibrar</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Som de notificação</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Silencioso</string>
   <!-- Sound settings, custom charging sound, setting check box label -->
+  <string name="power_notifications_custom_ringtone_title">Som de notificação personalizado</string>
 </resources>
