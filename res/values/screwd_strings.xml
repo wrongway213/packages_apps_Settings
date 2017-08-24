@@ -22,6 +22,7 @@
     <!-- Screw'd Settings -->
     <string name="screwd_settings">Screw\'d Settings</string>
     <string name="screwd_settings_summary">Chopped Up, Not Slopped Up....</string>
+    <string name="screwd_version_title">Screw\'d Version</string>
 
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_custom">
