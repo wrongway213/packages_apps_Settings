@@ -3294,5 +3294,20 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Begin Screw'd Stuff - Lets try to keep this together -->
+        <activity android:name=".Settings$ScrewdSettingsActivity"
+                  android:label="@string/screwd_settings"
+                  android:icon="@drawable/ic_screwd_settings">
+            <intent-filter android:priority="12">
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                       android:value="com.android.settings.category.ia.homepage"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.mrapocalypse.screwdshop.ScrewdShop"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/screwd_settings_summary"/>
+        </activity>
     </application>
 </manifest>

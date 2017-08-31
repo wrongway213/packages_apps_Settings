@@ -15,8 +15,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
     <string name="local_backup_password_title">Desktop backup password</string>
+
+    <!-- Screw'd Settings -->
+    <string name="screwd_settings">Screw\'d Settings</string>
+    <string name="screwd_settings_summary">Chopped Up, Not Slopped Up....</string>
 
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_custom">
