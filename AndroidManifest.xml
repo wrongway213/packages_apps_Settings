@@ -3315,5 +3315,6 @@
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/screwd_settings_summary"/>
         </activity>
+        <activity android:name="com.mrapocalypse.screwdshop.frags.HAFRAppListActivity" />
     </application>
 </manifest>
