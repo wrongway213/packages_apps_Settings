@@ -15,15 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<<<<<<< HEAD:res/values/screwd_strings.xml
-=======
     <!-- Encryption and credential -->
     <string name="custom_encryption_and_credential_settings_summary_on">Device is encrypted</string>
     <string name="custom_encryption_and_credential_settings_summary_off">Device is decrypted</string>
->>>>>>> e0c4014... Change encryption preference's summary conditionally:res/values/du_strings.xml
-
-    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-    <string name="local_backup_password_title">Desktop backup password</string>
 
     <!-- Screw'd Settings -->
     <string name="screwd_settings">Screw\'d Settings</string>
