@@ -107,11 +107,6 @@
         android:fragment="com.android.settings.gestures.PickupGestureSettings" />
 
     <SwitchPreference
-        android:key="doze"
-        android:title="@string/doze_title"
-        android:summary="@string/doze_summary" />
-
-    <SwitchPreference
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
@@ -126,4 +121,30 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+    <Preference
+        android:key="custom_doze"
+        android:title="@string/doze_title"
+        android:summary="@string/doze_summary" >
+        <intent
+            android:action="com.android.settings.action.EXTRA_SETTINGS"
+            android:targetPackage="com.custom.ambient.display"
+            android:targetClass="com.custom.ambient.display.DozeSettings" />
+    </Preference>
+
+    <PreferenceCategory
+        android:key="doze_category"
+        android:title="@string/doze_category">
+
+        <SwitchPreference
+            android:key="doze"
+            android:title="@string/doze_title"
+            android:summary="@string/doze_summary" />
+
+        <com.mrapocalypse.screwdshop.prefs.SecureSettingSwitchPreference
+            android:key="doze_always_on"
+            android:title="@string/always_on_title"
+            android:summary="@string/always_on_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
