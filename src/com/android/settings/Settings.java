@@ -192,5 +192,9 @@ public class Settings extends SettingsActivity {
     public static class UserAndAccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class ScrewdSettingsActivity extends SettingsActivity {}
+    public static class NavbarSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class FlingSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class SmartbarSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class PulseSettingsActivity extends SettingsActivity { /* empty */ }
 
 }
