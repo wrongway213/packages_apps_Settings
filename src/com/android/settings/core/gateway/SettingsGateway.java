@@ -129,6 +129,10 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.mrapocalypse.screwdshop.ScrewdShop;
+import com.mrapocalypse.screwdshop.frags.FlingSettings;
+import com.mrapocalypse.screwdshop.frags.NavbarSettings;
+import com.mrapocalypse.screwdshop.frags.PulseSettings;
+import com.mrapocalypse.screwdshop.frags.SmartbarSettings;
 
 public class SettingsGateway {
 
@@ -249,6 +253,10 @@ public class SettingsGateway {
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
             ScrewdShop.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -286,6 +294,10 @@ public class SettingsGateway {
             Settings.DateTimeSettingsActivity.class.getName(),
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
+            Settings.NavbarSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
             Settings.ScrewdSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
     };
 }
