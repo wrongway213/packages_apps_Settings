@@ -146,4 +146,8 @@
     <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>
     <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
 
+    <!-- Pin ripple -->
+    <string name="lockscreen_pin_ripple_title">Pin Ripple</string>
+    <string name="lockscreen_pin_ripple_summary">Disable to remove ripple when entering pin numbers</string>
+
 </resources>
