@@ -85,9 +85,6 @@
     <string name="menu_stats_reset">Reset stats</string>
     <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 
-    <!-- SIM selector for SMS -->
-    <string name="select_sim_for_sms">Select a SIM for SMS</string>
-
     <!-- Themes -->
     <string name="system_theme_style_title">UI style</string>
     <string name="system_theme_style_auto">Wallpaper based</string>
@@ -96,4 +93,5 @@
     <string name="system_theme_style_black">Black UI</string>
     <string name="theme_applied_toast">Theme applied!</string>
     <string name="ui_style_applied_toast">UI style applied!</string>
+
 </resources>
