@@ -105,22 +105,34 @@
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="false" />
 
-    <ListPreference
-        android:key="system_theme_style"
-        android:title="@string/system_theme_style_title"
-        android:persistent="false"
-        android:entries="@array/system_theme_style_entries"
-        android:entryValues="@array/system_theme_style_values" />
+    <Preference
+        android:key="vr_display_pref"
+        android:title="@string/display_vr_pref_title"
+        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
         android:summary="@string/summary_placeholder" />
 
+
+    <PreferenceCategory
+        android:key="theme_category"
+        android:title="@string/theme_category_title">
+
+    <ListPreference
+        android:key="system_theme_style"
+        android:title="@string/system_theme_style_title"
+        android:persistent="false"
+        android:icon="@drawable/ic_system_theme_style"
+        android:entries="@array/system_theme_style_entries"
+        android:entryValues="@array/system_theme_style_values" />
+
     <Preference
-        android:key="vr_display_pref"
-        android:title="@string/display_vr_pref_title"
-        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+        android:key="accent_picker"
+        android:icon="@drawable/ic_accent_picker"
+        android:title="@string/theme_accent_picker_title" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="ambient_display_category"
