@@ -61,8 +61,8 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
+        mSystemThemeStyle = (ListPreference) screen.findPreference(SYSTEM_THEME_STYLE);
         if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
-        	mSystemThemeStyle = (ListPreference) screen.findPreference(SYSTEM_THEME_STYLE);
         	int systemThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
                 	Settings.System.SYSTEM_THEME_STYLE, 0);
         	int valueIndex = mSystemThemeStyle.findIndexOfValue(String.valueOf(systemThemeStyle));
