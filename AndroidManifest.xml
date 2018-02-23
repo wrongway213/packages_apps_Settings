@@ -3354,8 +3354,6 @@
                 android:value="com.mrapocalypse.screwdshop.ScrewdShop" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
-            <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/screwd_settings_summary"/>
         </activity>
 
 
