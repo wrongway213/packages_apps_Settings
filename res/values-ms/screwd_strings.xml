@@ -40,4 +40,8 @@
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Display : Rotation -->
   <!-- USB  default config -->
+  <!-- USB paranoia mode -->
+  <!-- USB mode dialog -->
+  <!-- Pin ripple -->
+  <!-- Running services -->
 </resources>

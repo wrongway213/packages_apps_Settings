@@ -108,4 +108,8 @@
   <string name="display_rotation_180_title">180 stopni</string>
   <string name="display_rotation_270_title">270 stopni</string>
   <!-- USB  default config -->
+  <!-- USB paranoia mode -->
+  <!-- USB mode dialog -->
+  <!-- Pin ripple -->
+  <!-- Running services -->
 </resources>
