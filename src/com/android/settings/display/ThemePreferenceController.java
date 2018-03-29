@@ -50,6 +50,7 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
         PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
     private static final String KEY_THEME = "theme";
+    private static final String SUBS_PACKAGE = "projekt.substratum";
 
     private final MetricsFeatureProvider mMetricsFeatureProvider;
     private final OverlayManager mOverlayService;
@@ -110,8 +111,13 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
             themeLabel = mContext.getString(R.string.default_theme);
         }
 
-        pref.setSummary(themeLabel);
-        pref.setValue(theme);
+        if (!isPackageInstalled(SUBS_PACKAGE, mContext.getApplicationContext())) {
+            pref.setSummary(themeLabel);
+            pref.setValue(theme);
+        } else {
+            pref.setEnabled(false);
+            pref.setSummary(R.string.substratum_installed_title);
+        }
     }
 
     @Override
@@ -165,7 +171,6 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
         String[] themes = getAvailableThemes();
         return themes != null && themes.length > 1;
     }
-
 
     @VisibleForTesting
     String getCurrentTheme() {
@@ -229,5 +234,15 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
                   Toast.makeText(mContext, R.string.theme_applied_toast, Toast.LENGTH_SHORT).show();
               }
         }, 2000);
+    }
+
+    private boolean isPackageInstalled(String package_name, Context context) {
+        try {
+            PackageManager pm = context.getPackageManager();
+            pm.getPackageInfo(package_name, PackageManager.GET_ACTIVITIES);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }
