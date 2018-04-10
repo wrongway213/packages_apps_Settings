@@ -123,4 +123,5 @@
   <string name="lockscreen_pin_ripple_summary">Zakázat odstranění zvlnění při zadání PINu</string>
   <!-- Running services -->
   <string name="background_processes_settings_title">Procesy na pozadí</string>
+  <!-- Font picker -->
 </resources>
