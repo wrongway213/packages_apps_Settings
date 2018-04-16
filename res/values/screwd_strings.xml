@@ -156,6 +156,5 @@
 
     <!-- Font picker -->
     <string name="font_picker_title">Font</string>
-    <string name="font_picker_toast">Please wait, applying fonts.</string>
 
 </resources>
