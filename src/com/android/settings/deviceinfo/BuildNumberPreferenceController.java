@@ -21,6 +21,7 @@ import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.support.v7.preference.Preference;
@@ -59,6 +60,7 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
     private final Fragment mFragment;
     private final UserManager mUm;
     private final MetricsFeatureProvider mMetricsFeatureProvider;
+    private final String mBuildNumberOverride;
 
     private Toast mDevHitToast;
     private RestrictedLockUtils.EnforcedAdmin mDebuggingFeaturesDisallowedAdmin;
@@ -91,6 +93,7 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
         mFragment = fragment;
         mUm = (UserManager) context.getSystemService(Context.USER_SERVICE);
         mMetricsFeatureProvider = FeatureFactory.getFactory(context).getMetricsFeatureProvider();
+        mBuildNumberOverride = SystemProperties.get("ro.vendor.override.build_display", "");
         if (lifecycle != null) {
             lifecycle.addObserver(this);
         }
@@ -102,7 +105,11 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
         final Preference preference = screen.findPreference(KEY_BUILD_NUMBER);
         if (preference != null) {
             try {
-                preference.setSummary(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+                if (!TextUtils.isEmpty(mBuildNumberOverride)) {
+                    preference.setSummary(BidiFormatter.getInstance().unicodeWrap(mBuildNumberOverride));
+                } else {
+                    preference.setSummary(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+                }
                 preference.setEnabled(true);
             } catch (Exception e) {
                 preference.setSummary(R.string.device_info_default);
