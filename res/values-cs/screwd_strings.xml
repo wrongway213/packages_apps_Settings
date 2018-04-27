@@ -69,6 +69,7 @@
   <string name="menu_stats_reset">Obnovit statistiky</string>
   <string name="reset_stats_msg">Chystáte se obnovit historii statistiky baterie</string>
   <!-- Themes -->
+  <string name="theme_category_title">Motiv systému</string>
   <string name="system_theme_style_title">Styl UI</string>
   <string name="system_theme_style_auto">Podle tapety</string>
   <string name="system_theme_style_light">Světlé UI</string>
@@ -77,6 +78,7 @@
   <string name="theme_applied_toast">Motiv použit!</string>
   <string name="applying_theme_toast">Styl UI použit!</string>
   <string name="substratum_installed_title">Motivy systému nejsou k dispozici, protože je nainstalováno Substratum. Pokud chcete tyto motivy použít, odinstalujte jej.</string>
+  <string name="disable_fonts_installed_title">Nástroj pro výběr písma není k dispozici, aby se předešlo konfliktům se Substratum. Chcete-li použít nástroj pro výběr písma, odinstalujte Substratum.</string>
   <!-- [CHAR LIMIT=80]-->
   <string name="fp_swipe_to_dismiss_notifications_title">Zrušit oznámení přejetím doleva nebo doprava přes snímač otisků prstů</string>
   <!--  [CHAR LIMIT=160]-->
@@ -124,4 +126,5 @@
   <!-- Running services -->
   <string name="background_processes_settings_title">Procesy na pozadí</string>
   <!-- Font picker -->
+  <string name="font_picker_title">Písmo</string>
 </resources>

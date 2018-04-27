@@ -67,6 +67,7 @@
   <string name="menu_stats_reset">Statisztika törlése</string>
   <string name="reset_stats_msg">Akkumulátor használati statisztika törlésre kerül</string>
   <!-- Themes -->
+  <string name="theme_category_title">Rendszertéma</string>
   <string name="system_theme_style_title">Felület stílusa</string>
   <string name="system_theme_style_auto">Háttérkép alapján</string>
   <string name="system_theme_style_light">Világos felület</string>
@@ -75,6 +76,7 @@
   <string name="theme_applied_toast">Téma alkalmazva!</string>
   <string name="applying_theme_toast">Felület stílus alkalmazva!</string>
   <string name="substratum_installed_title">A rendszertémák nem érhetők el, mert a Substratum telepítve van. Távolítsa el, ha inkább ezeket a témákat szeretné használni.</string>
+  <string name="disable_fonts_installed_title">A betűtípus-választó nem érhető el a Substratum-mal való ütközés elkerülése érdekében. Ha használni szeretné a betűtípus-választót, távolítsa el.</string>
   <!-- [CHAR LIMIT=80]-->
   <string name="fp_swipe_to_dismiss_notifications_title">Húzza ujjlenyomatát balra vagy jobbra az értesítések elvetéséhez</string>
   <!--  [CHAR LIMIT=160]-->
@@ -122,4 +124,5 @@
   <!-- Running services -->
   <string name="background_processes_settings_title">Háttérfolyamatok</string>
   <!-- Font picker -->
+  <string name="font_picker_title">Betűtípus</string>
 </resources>
