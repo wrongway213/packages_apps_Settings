@@ -127,4 +127,5 @@
   <string name="background_processes_settings_title">Procesy na pozadí</string>
   <!-- Font picker -->
   <string name="font_picker_title">Font písma</string>
+  <string name="font_picker_progress">Aplikujem nové písmo\u2026</string>
 </resources>

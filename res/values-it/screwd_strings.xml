@@ -16,25 +16,77 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">Il dispositivo è criptato</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">Il dispositivo è decriptato</string>
   <!-- Screw'd Settings -->
+  <string name="screwd_settings">Impostazioni Screw\'d</string>
+  <string name="screwd_settings_summary">Chopped Up, non Slopped Up....</string>
+  <string name="screwd_version_title">Versione Screw\'d</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+  <plurals name="show_dev_countdown_custom">
+    <item quantity="one">Ora sei <xliff:g id="step_count"> passo dall\'abilitare le opzioni sviluppatore.</item>
+    <item quantity="other">Ora sei <xliff:g id="step_count"> passi dall\'abilitare le opzioni sviluppatore.</item>
+  </plurals>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+  <string name="show_dev_on_custom">Opzioni dello sviluppatore abilitate! Stai attento!</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+  <string name="show_dev_already_custom">Opzioni sviluppatore già abilitate!</string>
   <!-- Density category -->
+  <string name="density_category">Opzioni di densità</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Gestione root</string>
+  <string name="rootmanagement_dashboard_summary">Gestisci l\'accesso root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSu</string>
   <!-- Wake on Plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Attiva al collegamento</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Lo schermo si accende collegando o scollegando a una fonte di alimentazione</string>
   <!-- Vibrate on plug -->
+  <string name="vibration_on_charge_state_changed_title">Vibrazione al collegamento</string>
   <!-- Pixel color on sim card -->
+  <string name="default_sim_color">Pixel</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Livelli volume</string>
+  <string name="volume_steps_alarm_title">Livello volume: Sveglia</string>
+  <string name="volume_steps_dtmf_title">Livello volume: DTMF</string>
+  <string name="volume_steps_music_title">Livello volume: Musica</string>
+  <string name="volume_steps_notification_title">Livello volume: Notifiche</string>
+  <string name="volume_steps_ring_title">Livello volume: Suoneria</string>
+  <string name="volume_steps_system_title">Livello volume: Sistema</string>
+  <string name="volume_steps_voice_call_title">Livello volume: Chiamate</string>
+  <string name="volume_steps_bluetooth_sco_title">Livello volume: Chiamata Bluetooth</string>
+  <string name="volume_steps_reset">Ripristina</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Disposizione casuale</string>
+  <string name="unlock_scramble_pin_layout_summary">Modifica casualmente la disposizione di inserimento del PIN di sblocco</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
+  <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando vengono immessi PIN/password corretti</string>
   <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Ripristina statistiche</string>
+  <string name="reset_stats_msg">Le statistiche della cronologia delle batterie verranno ripristinate</string>
   <!-- Themes -->
+  <string name="theme_category_title">Tema del sistema</string>
+  <string name="system_theme_style_title">Stile UI</string>
+  <string name="system_theme_style_auto">In base allo sfondo</string>
+  <string name="system_theme_style_light">Chiaro</string>
+  <string name="system_theme_style_dark">Scuro</string>
+  <string name="system_theme_style_black">Nero</string>
+  <string name="theme_applied_toast">Tema applicato!</string>
+  <string name="applying_theme_toast">Stile UI applicato!</string>
+  <string name="substratum_installed_title">I temi di sistema non sono disponibili perché Substratum è installato. Disinstalla se desideri utilizzare questi temi.</string>
+  <string name="disable_fonts_installed_title">La selezione del carattere non è disponibile per evitare conflitti con Substratum. Disinstallarlo se si desidera utilizzare la selezione del tipo di carattere.</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Scorri l\'impronta digitale verso sinistra o destra per ignorare le notifiche</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Per ignorare le notifiche, scorrere verso sinistra o destra sul sensore di impronte digitali sul retro del telefono.</string>
   <!-- Notification log -->
+  <string name="notification_log_summary">Mostra registro cronologia delle notifiche</string>
   <!-- Pass swipe-up-to-unlock -->
+  <string name="lock_directly_show_password">Mostra direttamente la password</string>
+  <string name="lock_directly_show_pattern">Mostra direttamente lo schema</string>
+  <string name="lock_directly_show_pin">Mostra direttamente il PIN</string>
   <!-- Sizes for pattern lockscreen -->
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
@@ -45,4 +97,5 @@
   <!-- Pin ripple -->
   <!-- Running services -->
   <!-- Font picker -->
+  <string name="font_picker_progress">Applicazione del nuovo carattere</string>
 </resources>
