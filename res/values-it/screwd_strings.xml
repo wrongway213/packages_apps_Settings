@@ -23,10 +23,6 @@
   <string name="screwd_settings_summary">Chopped Up, non Slopped Up....</string>
   <string name="screwd_version_title">Versione Screw\'d</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
-  <plurals name="show_dev_countdown_custom">
-    <item quantity="one">Ora sei <xliff:g id="step_count"> passo dall\'abilitare le opzioni sviluppatore.</item>
-    <item quantity="other">Ora sei <xliff:g id="step_count"> passi dall\'abilitare le opzioni sviluppatore.</item>
-  </plurals>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
   <string name="show_dev_on_custom">Opzioni dello sviluppatore abilitate! Stai attento!</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
